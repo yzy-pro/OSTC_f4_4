@@ -1,3 +1,5 @@
 /cmake-build-debug/
 /cmake-build-release-mingw_stm32_dev/
-
+!/cmake-build-debug/OSTC_f4_4.hex
+CMakeLists.txt
+CMakeLists_template.txt

@@ -1,3 +1,0 @@
-D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/OSTC_f4_4.elf.dir
-D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/edit_cache.dir
-D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/rebuild_cache.dir
