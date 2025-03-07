@@ -3,7 +3,7 @@
 #ifdef  __cplusplus
 extern "C"{
 #endif
-#define M_PI 3.1415926535897932384626433832795
+#define M_PI 3.14159265
 #define sqrt2 1.41421356
 
 #define PID_rate 100
