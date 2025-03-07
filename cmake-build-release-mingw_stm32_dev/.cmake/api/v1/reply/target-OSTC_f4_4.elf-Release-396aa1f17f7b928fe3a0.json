@@ -70,7 +70,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 49,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -93,7 +93,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always"
 				},
 				{
 					"backtrace" : 5,
@@ -125,11 +125,7 @@
 				},
 				{
 					"backtrace" : 8,
-					"fragment" : "-Og"
-				},
-				{
-					"backtrace" : 8,
-					"fragment" : "-g"
+					"fragment" : "-Ofast"
 				}
 			],
 			"defines" : 
@@ -181,17 +177,14 @@
 			},
 			"sourceIndexes" : 
 			[
-				5,
-				6,
 				7,
 				8,
-				9,
 				10,
 				11,
 				12,
-				78,
-				79,
-				80,
+				13,
+				14,
+				15,
 				81,
 				82,
 				83,
@@ -203,14 +196,108 @@
 				89,
 				90,
 				91,
-				92
+				92,
+				93,
+				94,
+				95
 			]
 		},
 		{
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-O3 -DNDEBUG -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Ofast"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "STM32F407xx"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "D:/optical/OSTC_f4_4/Core/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/optical/OSTC_f4_4/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/optical/OSTC_f4_4/Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
 				},
 				{
 					"backtrace" : 5,
@@ -250,11 +337,7 @@
 				},
 				{
 					"backtrace" : 8,
-					"fragment" : "-Og"
-				},
-				{
-					"backtrace" : 8,
-					"fragment" : "-g"
+					"fragment" : "-Ofast"
 				}
 			],
 			"defines" : 
@@ -298,7 +381,7 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				13
+				16
 			]
 		}
 	],
@@ -308,7 +391,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O3 -DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -317,7 +400,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/optical/OSTC_f4_4/cmake-build-debug/OSTC_f4_4.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/OSTC_f4_4.map",
 				"role" : "flags"
 			},
 			{
@@ -346,7 +429,7 @@
 				"role" : "flags"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
 	"name" : "OSTC_f4_4.elf",
 	"nameOnDisk" : "OSTC_f4_4.elf",
@@ -366,12 +449,11 @@
 				2,
 				3,
 				4,
-				14,
-				15,
-				16,
+				5,
+				6,
+				17,
 				18,
 				19,
-				20,
 				21,
 				22,
 				23,
@@ -399,9 +481,9 @@
 				45,
 				46,
 				47,
+				48,
 				49,
 				50,
-				51,
 				52,
 				53,
 				54,
@@ -426,24 +508,25 @@
 				73,
 				74,
 				75,
-				76
+				76,
+				77,
+				78,
+				79
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				5,
-				6,
 				7,
 				8,
 				9,
 				10,
 				11,
 				12,
-				78,
-				79,
-				80,
+				13,
+				14,
+				15,
 				81,
 				82,
 				83,
@@ -455,23 +538,31 @@
 				89,
 				90,
 				91,
-				92
+				92,
+				93,
+				94,
+				95
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				13,
-				17,
-				48,
-				77,
-				93
+				16,
+				20,
+				51,
+				80,
+				96
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/condition.h",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/gpio.h",
@@ -480,6 +571,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/main.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/motor.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -507,6 +603,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/motor.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -547,7 +649,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 1,
+			"compileGroupIndex" : 2,
 			"path" : "Core/Startup/startup_stm32f407vetx.s",
 			"sourceGroupIndex" : 2
 		},

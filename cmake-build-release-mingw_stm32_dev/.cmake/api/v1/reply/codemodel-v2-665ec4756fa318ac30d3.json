@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.30"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OSTC_f4_4.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OSTC_f4_4.elf-Debug-f7a0719002f9958119d4.json",
+					"jsonFile" : "target-OSTC_f4_4.elf-Release-396aa1f17f7b928fe3a0.json",
 					"name" : "OSTC_f4_4.elf",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/optical/OSTC_f4_4/cmake-build-debug",
+		"build" : "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev",
 		"source" : "D:/optical/OSTC_f4_4"
 	},
 	"version" : 

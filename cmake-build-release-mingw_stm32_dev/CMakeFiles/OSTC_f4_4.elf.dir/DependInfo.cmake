@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "D:/optical/OSTC_f4_4/Core/Startup/startup_stm32f407vetx.s" "D:/optical/OSTC_f4_4/cmake-build-debug/CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj"
+  "D:/optical/OSTC_f4_4/Core/Startup/startup_stm32f407vetx.s" "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
