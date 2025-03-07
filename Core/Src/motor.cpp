@@ -1,4 +1,5 @@
 #include "motor.h"
+#include "Setup_and_Loop.h"
 #include "tim.h"
 
 void motor_control(const int name, int pwm_velocity)

@@ -1,6 +1,7 @@
 #include "encoder.h"
 #include "tim.h"
 #include "condition.h"
+#include "Setup_and_Loop.h"
 
 
 int Encoder_GetCounter (const int name)
