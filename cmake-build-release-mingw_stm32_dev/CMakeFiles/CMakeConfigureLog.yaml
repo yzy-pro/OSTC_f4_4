@@ -135,8 +135,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rvjnea"
-      binary: "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rvjnea"
+      source: "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-uaz78m"
+      binary: "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-uaz78m"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -145,13 +145,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rvjnea'
+        Change Dir: 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-uaz78m'
         
-        Run Build Command(s): "D:/jb/toolbox/CLion 2024.3.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_0bc5e/fast
-        D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0bc5e.dir\\build.make CMakeFiles/cmTC_0bc5e.dir/build
-        mingw32-make[1]: Entering directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rvjnea'
-        Building C object CMakeFiles/cmTC_0bc5e.dir/CMakeCCompilerABI.c.obj
-        D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj -c "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "D:/jb/toolbox/CLion 2024.3.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_134e7/fast
+        D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_134e7.dir\\build.make CMakeFiles/cmTC_134e7.dir/build
+        mingw32-make[1]: Entering directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-uaz78m'
+        Building C object CMakeFiles/cmTC_134e7.dir/CMakeCCompilerABI.c.obj
+        D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj -c "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -159,8 +159,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_0bc5e.dir\\'
-         D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -iprefix D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_0bc5e.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\54587\\AppData\\Local\\Temp\\ccJbW4pd.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_134e7.dir\\'
+         D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -iprefix D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_134e7.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\54587\\AppData\\Local\\Temp\\ccEAR5W3.s
         GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -177,18 +177,18 @@ events:
          D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 63ce4b303c7eb47a24bbf869f5c70b36
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_0bc5e.dir\\'
-         D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj C:\\Users\\54587\\AppData\\Local\\Temp\\ccJbW4pd.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_134e7.dir\\'
+         D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj C:\\Users\\54587\\AppData\\Local\\Temp\\ccEAR5W3.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.'
-        Linking C static library libcmTC_0bc5e.a
-        "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_0bc5e.dir\\cmake_clean_target.cmake
-        "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0bc5e.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_0bc5e.a CMakeFiles/cmTC_0bc5e.dir/CMakeCCompilerABI.c.obj
-        D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_0bc5e.a
-        mingw32-make[1]: Leaving directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rvjnea'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_134e7.a
+        "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_134e7.dir\\cmake_clean_target.cmake
+        "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_134e7.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_134e7.a CMakeFiles/cmTC_134e7.dir/CMakeCCompilerABI.c.obj
+        D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_134e7.a
+        mingw32-make[1]: Leaving directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-uaz78m'
         
       exitCode: 0
   -
@@ -221,13 +221,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rvjnea']
+        ignore line: [Change Dir: 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-uaz78m']
         ignore line: []
-        ignore line: [Run Build Command(s): "D:/jb/toolbox/CLion 2024.3.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_0bc5e/fast]
-        ignore line: [D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0bc5e.dir\\build.make CMakeFiles/cmTC_0bc5e.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rvjnea']
-        ignore line: [Building C object CMakeFiles/cmTC_0bc5e.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj -c "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "D:/jb/toolbox/CLion 2024.3.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_134e7/fast]
+        ignore line: [D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_134e7.dir\\build.make CMakeFiles/cmTC_134e7.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-uaz78m']
+        ignore line: [Building C object CMakeFiles/cmTC_134e7.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj -c "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -235,8 +235,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_0bc5e.dir\\']
-        ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -iprefix D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_0bc5e.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\54587\\AppData\\Local\\Temp\\ccJbW4pd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_134e7.dir\\']
+        ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -iprefix D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_134e7.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\54587\\AppData\\Local\\Temp\\ccEAR5W3.s]
         ignore line: [GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -253,8 +253,8 @@ events:
         ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 63ce4b303c7eb47a24bbf869f5c70b36]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_0bc5e.dir\\']
-        ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj C:\\Users\\54587\\AppData\\Local\\Temp\\ccJbW4pd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_134e7.dir\\']
+        ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj C:\\Users\\54587\\AppData\\Local\\Temp\\ccEAR5W3.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/]
         ignore line: [D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/]
@@ -263,13 +263,13 @@ events:
         ignore line: [D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/]
         ignore line: [D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_0bc5e.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C static library libcmTC_0bc5e.a]
-        ignore line: ["D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_0bc5e.dir\\cmake_clean_target.cmake]
-        ignore line: ["D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0bc5e.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_0bc5e.a CMakeFiles/cmTC_0bc5e.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_0bc5e.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rvjnea']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_134e7.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_134e7.a]
+        ignore line: ["D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_134e7.dir\\cmake_clean_target.cmake]
+        ignore line: ["D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_134e7.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_134e7.a CMakeFiles/cmTC_134e7.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_134e7.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-uaz78m']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -287,8 +287,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rcv5is"
-      binary: "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rcv5is"
+      source: "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-6slcz1"
+      binary: "D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-6slcz1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -298,13 +298,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rcv5is'
+        Change Dir: 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-6slcz1'
         
-        Run Build Command(s): "D:/jb/toolbox/CLion 2024.3.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_22ae4/fast
-        D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_22ae4.dir\\build.make CMakeFiles/cmTC_22ae4.dir/build
-        mingw32-make[1]: Entering directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rcv5is'
-        Building CXX object CMakeFiles/cmTC_22ae4.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "D:/jb/toolbox/CLion 2024.3.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_b23c2/fast
+        D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b23c2.dir\\build.make CMakeFiles/cmTC_b23c2.dir/build
+        mingw32-make[1]: Entering directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-6slcz1'
+        Building CXX object CMakeFiles/cmTC_b23c2.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
@@ -312,8 +312,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_22ae4.dir\\'
-         D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -iprefix D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_22ae4.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\54587\\AppData\\Local\\Temp\\ccMAvT1y.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b23c2.dir\\'
+         D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -iprefix D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_b23c2.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\54587\\AppData\\Local\\Temp\\ccHHkrgu.s
         GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -336,18 +336,18 @@ events:
          D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: dad18755456eb98fd3f9411f1449dfa2
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_22ae4.dir\\'
-         D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\54587\\AppData\\Local\\Temp\\ccMAvT1y.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b23c2.dir\\'
+         D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\54587\\AppData\\Local\\Temp\\ccHHkrgu.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/;D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_22ae4.a
-        "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_22ae4.dir\\cmake_clean_target.cmake
-        "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_22ae4.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_22ae4.a CMakeFiles/cmTC_22ae4.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_22ae4.a
-        mingw32-make[1]: Leaving directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rcv5is'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_b23c2.a
+        "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_b23c2.dir\\cmake_clean_target.cmake
+        "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b23c2.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_b23c2.a CMakeFiles/cmTC_b23c2.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_b23c2.a
+        mingw32-make[1]: Leaving directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-6slcz1'
         
       exitCode: 0
   -
@@ -386,13 +386,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rcv5is']
+        ignore line: [Change Dir: 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-6slcz1']
         ignore line: []
-        ignore line: [Run Build Command(s): "D:/jb/toolbox/CLion 2024.3.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_22ae4/fast]
-        ignore line: [D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_22ae4.dir\\build.make CMakeFiles/cmTC_22ae4.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rcv5is']
-        ignore line: [Building CXX object CMakeFiles/cmTC_22ae4.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "D:/jb/toolbox/CLion 2024.3.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_b23c2/fast]
+        ignore line: [D:/jb/toolbox/CLion 2024.3.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b23c2.dir\\build.make CMakeFiles/cmTC_b23c2.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-6slcz1']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b23c2.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
@@ -400,8 +400,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_22ae4.dir\\']
-        ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -iprefix D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_22ae4.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\54587\\AppData\\Local\\Temp\\ccMAvT1y.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b23c2.dir\\']
+        ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -iprefix D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_b23c2.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\54587\\AppData\\Local\\Temp\\ccHHkrgu.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -424,8 +424,8 @@ events:
         ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: dad18755456eb98fd3f9411f1449dfa2]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_22ae4.dir\\']
-        ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\54587\\AppData\\Local\\Temp\\ccMAvT1y.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b23c2.dir\\']
+        ignore line: [ D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\54587\\AppData\\Local\\Temp\\ccHHkrgu.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/]
         ignore line: [D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/]
@@ -434,13 +434,13 @@ events:
         ignore line: [D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/]
         ignore line: [D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [D:/msys64/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_22ae4.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_22ae4.a]
-        ignore line: ["D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_22ae4.dir\\cmake_clean_target.cmake]
-        ignore line: ["D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_22ae4.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_22ae4.a CMakeFiles/cmTC_22ae4.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_22ae4.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-rcv5is']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b23c2.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_b23c2.a]
+        ignore line: ["D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_b23c2.dir\\cmake_clean_target.cmake]
+        ignore line: ["D:\\jb\\toolbox\\CLion 2024.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b23c2.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_b23c2.a CMakeFiles/cmTC_b23c2.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\msys64\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_b23c2.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'D:/optical/OSTC_f4_4/cmake-build-release-mingw_stm32_dev/CMakeFiles/CMakeScratch/TryCompile-6slcz1']
         ignore line: []
         ignore line: []
         implicit libs: []

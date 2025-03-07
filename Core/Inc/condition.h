@@ -43,6 +43,19 @@ typedef struct
     double Omega_velocity;
 }Polar_RobotCondition;
 
+typedef struct
+{
+    double kp;
+    double ki;
+    double kd;
+    double error_limit;
+}PID_k;
+
+Polar_RobotCondition Cartesian2Polar(const RobotCondition & Cartesian);
+RobotCondition Polar2Cartesian(const Polar_RobotCondition & Polar);
+
+WheelCondition Robot2Wheel(const RobotCondition & Robot);
+RobotCondition Wheel2Robot(const WheelCondition & Wheel);
 
 #ifdef  __cplusplus
 }

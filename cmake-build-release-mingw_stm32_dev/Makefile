@@ -128,6 +128,30 @@ OSTC_f4_4.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/build
 .PHONY : OSTC_f4_4.elf/fast
 
+Core/Src/PID.obj: Core/Src/PID.cpp.obj
+.PHONY : Core/Src/PID.obj
+
+# target to build an object file
+Core/Src/PID.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.obj
+.PHONY : Core/Src/PID.cpp.obj
+
+Core/Src/PID.i: Core/Src/PID.cpp.i
+.PHONY : Core/Src/PID.i
+
+# target to preprocess a source file
+Core/Src/PID.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.i
+.PHONY : Core/Src/PID.cpp.i
+
+Core/Src/PID.s: Core/Src/PID.cpp.s
+.PHONY : Core/Src/PID.s
+
+# target to generate assembly for a file
+Core/Src/PID.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.s
+.PHONY : Core/Src/PID.cpp.s
+
 Core/Src/condition.obj: Core/Src/condition.cpp.obj
 .PHONY : Core/Src/condition.obj
 
@@ -769,6 +793,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OSTC_f4_4.elf
+	@echo ... Core/Src/PID.obj
+	@echo ... Core/Src/PID.i
+	@echo ... Core/Src/PID.s
 	@echo ... Core/Src/condition.obj
 	@echo ... Core/Src/condition.i
 	@echo ... Core/Src/condition.s
