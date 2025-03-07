@@ -1,8 +1,25 @@
 #ifndef EXCHANGE_DEFINE_H
 #define EXCHANGE_DEFINE_H
 #ifdef  __cplusplus
-extern "C"
+extern "C"{
 #endif
+#define M_PI 3.1415926535897932384626433832795
+#define sqrt2 1.41421356
+
+#define PID_rate 100
+#define PID_period (1000 / PID_rate)
+
+#define encoder_resolution 13 //编码器分辨率
+#define encoder_gear_ratio 30 //减速比
+#define encoder_resolution_u (4 * encoder_resolution * encoder_gear_ratio)//4分频
+#define conversion_factor (2 * M_PI * R_of_wheel * PID_rate / encoder_resolution_u) //轮子速度m/s与编码器转换系数
+
+#define R_of_robot 1.0//@@@
+#define R_of_wheel 1.0//@@@
+#define Alpha 45.0//@@@
+
+inline double deg2rad(double x);
+inline double rad2deg(double x);
 
 typedef struct
 {
@@ -30,4 +47,5 @@ typedef struct
 #ifdef  __cplusplus
 }
 #endif
+
 #endif //EXCHANGE_DEFINE_H

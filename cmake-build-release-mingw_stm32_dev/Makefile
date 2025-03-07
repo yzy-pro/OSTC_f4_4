@@ -128,6 +128,30 @@ OSTC_f4_4.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/build
 .PHONY : OSTC_f4_4.elf/fast
 
+Core/Src/condition.obj: Core/Src/condition.cpp.obj
+.PHONY : Core/Src/condition.obj
+
+# target to build an object file
+Core/Src/condition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
+.PHONY : Core/Src/condition.cpp.obj
+
+Core/Src/condition.i: Core/Src/condition.cpp.i
+.PHONY : Core/Src/condition.i
+
+# target to preprocess a source file
+Core/Src/condition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.i
+.PHONY : Core/Src/condition.cpp.i
+
+Core/Src/condition.s: Core/Src/condition.cpp.s
+.PHONY : Core/Src/condition.s
+
+# target to generate assembly for a file
+Core/Src/condition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.s
+.PHONY : Core/Src/condition.cpp.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -721,6 +745,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OSTC_f4_4.elf
+	@echo ... Core/Src/condition.obj
+	@echo ... Core/Src/condition.i
+	@echo ... Core/Src/condition.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
