@@ -31,7 +31,7 @@ C---D
 接线参考[Setup_and_Loop.h](Core/Inc/Setup_and_Loop.h)中的引脚名称
 
 # 核心流程
-参考[Setup_and_Loop.cpp](Core/Src/Setup_and_Loop.cpp)中robot_control函数的注释
+参考[Setup_and_Loop.cpp](Core/Src/Setup_and_Loop.cpp)中loop函数的注释
 
 # 进一步开发思路
 * 增加位置PID，串级PID增加调控准确度
