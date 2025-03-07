@@ -16,7 +16,6 @@
 * 角速度以向上为正方向
 * alpha为x正向于AC轮连线夹角 45
 * R是单个麦轮到车中心的距离
-* 建模参考https://blog.csdn.net/u014453443/article/details/107228531?sharetype=blog&shareId=107228531&sharerefer=APP&sharesource=2403_88153395&sharefrom=qq
 
 示意图：
 
@@ -32,7 +31,7 @@ C---D
 接线参考[Setup_and_Loop.h](Core/Inc/Setup_and_Loop.h)中的引脚名称
 
 # 核心流程
-参考[Setup_and_Loop.cpp](Core/Src/Setup_and_Loop.cpp)[robot.cpp](Core/Src/robot.cpp)中robot_control函数的注释
+参考[Setup_and_Loop.cpp](Core/Src/Setup_and_Loop.cpp)中robot_control函数的注释
 
 # 进一步开发思路
 * 增加位置PID，串级PID增加调控准确度
