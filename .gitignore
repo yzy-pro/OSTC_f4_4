@@ -3,3 +3,4 @@
 !/cmake-build-debug/OSTC_f4_4.hex
 CMakeLists.txt
 CMakeLists_template.txt
+/.idea
