@@ -3,7 +3,6 @@
 #include "condition.h"
 #include "Setup_and_Loop.h"
 
-
 int Encoder_GetCounter (const int name)
 {
     int counter{};
