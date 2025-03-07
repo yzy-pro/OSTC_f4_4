@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.obj"
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.obj.d"
+  "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj"
+  "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj.d"
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj"
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj.d"
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj"

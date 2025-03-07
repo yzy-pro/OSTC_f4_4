@@ -152,6 +152,30 @@ Core/Src/PID.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.s
 .PHONY : Core/Src/PID.cpp.s
 
+Core/Src/Setup_and_Loop.obj: Core/Src/Setup_and_Loop.cpp.obj
+.PHONY : Core/Src/Setup_and_Loop.obj
+
+# target to build an object file
+Core/Src/Setup_and_Loop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj
+.PHONY : Core/Src/Setup_and_Loop.cpp.obj
+
+Core/Src/Setup_and_Loop.i: Core/Src/Setup_and_Loop.cpp.i
+.PHONY : Core/Src/Setup_and_Loop.i
+
+# target to preprocess a source file
+Core/Src/Setup_and_Loop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.i
+.PHONY : Core/Src/Setup_and_Loop.cpp.i
+
+Core/Src/Setup_and_Loop.s: Core/Src/Setup_and_Loop.cpp.s
+.PHONY : Core/Src/Setup_and_Loop.s
+
+# target to generate assembly for a file
+Core/Src/Setup_and_Loop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.s
+.PHONY : Core/Src/Setup_and_Loop.cpp.s
+
 Core/Src/condition.obj: Core/Src/condition.cpp.obj
 .PHONY : Core/Src/condition.obj
 
@@ -796,6 +820,9 @@ help:
 	@echo ... Core/Src/PID.obj
 	@echo ... Core/Src/PID.i
 	@echo ... Core/Src/PID.s
+	@echo ... Core/Src/Setup_and_Loop.obj
+	@echo ... Core/Src/Setup_and_Loop.i
+	@echo ... Core/Src/Setup_and_Loop.s
 	@echo ... Core/Src/condition.obj
 	@echo ... Core/Src/condition.i
 	@echo ... Core/Src/condition.s

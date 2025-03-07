@@ -54,6 +54,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" "gcc" "CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj.d"
   "D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "D:/optical/OSTC_f4_4/Core/Src/PID.cpp" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.obj" "gcc" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.obj.d"
+  "D:/optical/OSTC_f4_4/Core/Src/Setup_and_Loop.cpp" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj" "gcc" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj.d"
   "D:/optical/OSTC_f4_4/Core/Src/condition.cpp" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj" "gcc" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj.d"
   "D:/optical/OSTC_f4_4/Core/Src/encoder.cpp" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj" "gcc" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj.d"
   "D:/optical/OSTC_f4_4/Core/Src/motor.cpp" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj" "gcc" "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj.d"
