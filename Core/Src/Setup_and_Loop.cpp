@@ -2,7 +2,6 @@
 #include "encoder.h"
 #include "Setup_and_Loop.h"
 #include "tim.h"
-
 #include "motor.h"
 
 RobotCondition getsettings()

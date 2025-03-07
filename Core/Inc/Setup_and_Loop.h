@@ -1,4 +1,3 @@
-
 #ifndef SETUP_AND_LOOP_H
 #define SETUP_AND_LOOP_H
 #ifdef __cplusplus
