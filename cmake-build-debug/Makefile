@@ -152,6 +152,30 @@ Core/Src/condition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.s
 .PHONY : Core/Src/condition.cpp.s
 
+Core/Src/encoder.obj: Core/Src/encoder.cpp.obj
+.PHONY : Core/Src/encoder.obj
+
+# target to build an object file
+Core/Src/encoder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj
+.PHONY : Core/Src/encoder.cpp.obj
+
+Core/Src/encoder.i: Core/Src/encoder.cpp.i
+.PHONY : Core/Src/encoder.i
+
+# target to preprocess a source file
+Core/Src/encoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.i
+.PHONY : Core/Src/encoder.cpp.i
+
+Core/Src/encoder.s: Core/Src/encoder.cpp.s
+.PHONY : Core/Src/encoder.s
+
+# target to generate assembly for a file
+Core/Src/encoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSTC_f4_4.elf.dir\build.make CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.s
+.PHONY : Core/Src/encoder.cpp.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -748,6 +772,9 @@ help:
 	@echo ... Core/Src/condition.obj
 	@echo ... Core/Src/condition.i
 	@echo ... Core/Src/condition.s
+	@echo ... Core/Src/encoder.obj
+	@echo ... Core/Src/encoder.i
+	@echo ... Core/Src/encoder.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s

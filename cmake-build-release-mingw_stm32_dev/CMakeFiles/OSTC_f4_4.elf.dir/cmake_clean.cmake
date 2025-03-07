@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj"
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj.d"
+  "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj"
+  "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj.d"
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj.d"
   "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj"

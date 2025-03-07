@@ -82,10 +82,24 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.s"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\optical\OSTC_f4_4\Core\Src\condition.cpp -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\condition.cpp.s
 
+CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
+CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj: D:/optical/OSTC_f4_4/Core/Src/encoder.cpp
+CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj"
+	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\encoder.cpp.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\encoder.cpp.obj -c D:\optical\OSTC_f4_4\Core\Src\encoder.cpp
+
+CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.i"
+	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\optical\OSTC_f4_4\Core\Src\encoder.cpp > CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\encoder.cpp.i
+
+CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.s"
+	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\optical\OSTC_f4_4\Core\Src\encoder.cpp -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\encoder.cpp.s
+
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj: D:/optical/OSTC_f4_4/Core/Src/gpio.c
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\gpio.c.obj -c D:\optical\OSTC_f4_4\Core\Src\gpio.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj: D:/optical/OSTC_f4_4/Core/Src/main.c
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\main.c.obj -c D:\optical\OSTC_f4_4\Core\Src\main.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj: D:/optical/OSTC_f4_4/Core/Src/motor.cpp
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\motor.cpp.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\motor.cpp.obj -c D:\optical\OSTC_f4_4\Core\Src\motor.cpp
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.s: cmake_force
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/optical/OSTC_f4_4/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\optical\OSTC_f4_4\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/optical/OSTC_f4_4/Core/Src/stm32f4xx_it.c
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\optical\OSTC_f4_4\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj: D:/optical/OSTC_f4_4/Core/Src/syscalls.c
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\syscalls.c.obj -c D:\optical\OSTC_f4_4\Core\Src\syscalls.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.obj: D:/optical/OSTC_f4_4/Core/Src/sysmem.c
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\sysmem.c.obj -c D:\optical\OSTC_f4_4\Core\Src\sysmem.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/optical/OSTC_f4_4/Core/Src/system_stm32f4xx.c
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\optical\OSTC_f4_4\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj: D:/optical/OSTC_f4_4/Core/Src/tim.c
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Src\tim.c.obj -c D:\optical\OSTC_f4_4\Core\Src\tim.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.s: cmake_force
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj: D:/optical/OSTC_f4_4/Core/Startup/startup_stm32f407vetx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\OSTC_f4_4.elf.dir\Core\Startup\startup_stm32f407vetx.s.obj -c D:\optical\OSTC_f4_4\Core\Startup\startup_stm32f407vetx.s
 
 CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.s: cmake_force
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s:
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cort
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/flags.make
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/optical/OSTC_f4_4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/OSTC_f4_4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	D:\msys64\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\OSTC_f4_4.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\optical\OSTC_f4_4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -434,6 +448,7 @@ CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_
 # Object files for target OSTC_f4_4.elf
 OSTC_f4_4_elf_OBJECTS = \
 "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj" \
+"CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj" \
 "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj" \
@@ -464,6 +479,7 @@ OSTC_f4_4_elf_OBJECTS = \
 OSTC_f4_4_elf_EXTERNAL_OBJECTS =
 
 OSTC_f4_4.elf: CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
+OSTC_f4_4.elf: CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj
 OSTC_f4_4.elf: CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj
 OSTC_f4_4.elf: CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj
 OSTC_f4_4.elf: CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj
@@ -491,7 +507,7 @@ OSTC_f4_4.elf: CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm
 OSTC_f4_4.elf: CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 OSTC_f4_4.elf: CMakeFiles/OSTC_f4_4.elf.dir/build.make
 OSTC_f4_4.elf: CMakeFiles/OSTC_f4_4.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable OSTC_f4_4.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\optical\OSTC_f4_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable OSTC_f4_4.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OSTC_f4_4.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/optical/OSTC_f4_4/cmake-build-debug/OSTC_f4_4.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/optical/OSTC_f4_4/cmake-build-debug/OSTC_f4_4.bin"
