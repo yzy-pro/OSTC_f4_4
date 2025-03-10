@@ -4,6 +4,7 @@
 #include "tim.h"
 #include "motor.h"
 #include "jetson.h"
+#include "servo.h"
 #include "usart.h"
 
 RobotCondition getsettings()
@@ -31,6 +32,9 @@ void setup()
     __HAL_TIM_SetCounter(&htim4, 0);
     __HAL_TIM_SetCounter(&htim5, 0);
 
+    HAL_UART_Receive_IT(&huart3, rx_buffer, RX_BUFFER_SIZE);
+    motors_control({0, 0, 0, 0});
+    servos_control({90, 135});
 }
 
 void loop()

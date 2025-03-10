@@ -7,9 +7,9 @@ extern "C" {
 #include "condition.h"
 
 #define RX_BUFFER_SIZE 100
-extern char* rx_buffer;
+extern uint8_t* rx_buffer;
 
-Servos Jetson2Servo(const char * jetson_data);
+Servos Jetson2Servo(const uint8_t * jetson_data);
 #ifdef __cplusplus
 }
 #endif

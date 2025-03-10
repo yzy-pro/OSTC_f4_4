@@ -1,15 +1,12 @@
 #include "jetson.h"
-#include <stdlib.h>
-#include <stdio.h>
-#include "stm32f4xx_hal.h"
-#include "stm32f4xx_hal_tim.h"
-#include "stm32f4xx_hal_dma.h"
-#include "stm32f4xx_hal_uart.h"
 
-Servos Jetson2Servo(const char* jetson_data)
+#include <stdio.h>
+
+
+Servos Jetson2Servo(const uint8_t* jetson_data)
 {
     Servos servo;
-    if (sscanf(jetson_data, "<%d,%d", &servo.pitch, &servo.yaw) == 2)
+    if (sscanf((char*)jetson_data, "<%d,%d", &servo.pitch, &servo.yaw) == 2)
     {
         //printf("Received Pan: %d, Tilt: %d\n", servo.pitch, servo.yaw);
         return servo;

@@ -43,7 +43,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-char* rx_buffer;
+uint8_t* rx_buffer;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
