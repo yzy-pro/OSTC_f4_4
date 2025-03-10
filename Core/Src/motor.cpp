@@ -102,7 +102,7 @@ void motor_control(const int name, int pwm_velocity)
     }
 }
 
-void motors_control(const WheelCondition & pwm_velocity)
+void motors_control(const WheelCondition pwm_velocity)
 {
     motor_control('A', static_cast<int>(pwm_velocity.A_velocity));
     motor_control('B', static_cast<int>(pwm_velocity.B_velocity));

@@ -51,12 +51,19 @@ typedef struct
     double error_limit;
 }PID_k;
 
-Polar_RobotCondition Cartesian2Polar(const RobotCondition & Cartesian);
-RobotCondition Polar2Cartesian(const Polar_RobotCondition & Polar);
+typedef struct
+{
+    int pitch;
+    int yaw;
+}Servos;
 
-WheelCondition Robot2Wheel(const RobotCondition & Robot);
-RobotCondition Wheel2Robot(const WheelCondition & Wheel);
+Polar_RobotCondition Cartesian2Polar(const RobotCondition Cartesian);
+RobotCondition Polar2Cartesian(const Polar_RobotCondition Polar);
 
+WheelCondition Robot2Wheel(const RobotCondition Robot);
+RobotCondition Wheel2Robot(const WheelCondition Wheel);
+
+Servos Servo2PLus(const Servos Servo);
 #ifdef  __cplusplus
 }
 #endif

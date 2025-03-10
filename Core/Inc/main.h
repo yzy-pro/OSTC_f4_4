@@ -73,6 +73,14 @@ void Error_Handler(void);
 #define C_MOTOR_BI_GPIO_Port GPIOE
 #define C_MOTOR_FI_Pin GPIO_PIN_14
 #define C_MOTOR_FI_GPIO_Port GPIOE
+#define JETSON_USART_TX_Pin GPIO_PIN_8
+#define JETSON_USART_TX_GPIO_Port GPIOD
+#define JETSON_USART_RX_Pin GPIO_PIN_9
+#define JETSON_USART_RX_GPIO_Port GPIOD
+#define J3_Pitch_Servo_Pin GPIO_PIN_8
+#define J3_Pitch_Servo_GPIO_Port GPIOC
+#define J4_Yaw_Servo_Pin GPIO_PIN_9
+#define J4_Yaw_Servo_GPIO_Port GPIOC
 #define C_ENCODER_3_Pin GPIO_PIN_15
 #define C_ENCODER_3_GPIO_Port GPIOA
 #define C_ENCODER_4_Pin GPIO_PIN_3

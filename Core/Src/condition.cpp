@@ -10,12 +10,12 @@ inline double rad2deg(const double x)
     return x * 180.0 / M_PI;
 }
 
-Polar_RobotCondition Cartesian2Polar(const RobotCondition & Cartesian)
+Polar_RobotCondition Cartesian2Polar(const RobotCondition Cartesian)
 {
     return {0,0,0};//@@@
 }
 
-RobotCondition Polar2Cartesian(const Polar_RobotCondition & Polar)
+RobotCondition Polar2Cartesian(const Polar_RobotCondition Polar)
 {
     const double Theta = deg2rad(Polar.Theta_velocity);
 
@@ -27,7 +27,7 @@ RobotCondition Polar2Cartesian(const Polar_RobotCondition & Polar)
     return Cartesian;
 }
 
-WheelCondition Robot2Wheel(const RobotCondition & Robot)
+WheelCondition Robot2Wheel(const RobotCondition Robot)
 {
     const WheelCondition Wheel = {
         .A_velocity = sqrt2 * Robot.X_velocity + Robot.Omega_velocity * R_of_robot,
@@ -37,7 +37,7 @@ WheelCondition Robot2Wheel(const RobotCondition & Robot)
     };
     return Wheel;
 }
-RobotCondition Wheel2Robot(const WheelCondition & Wheel)
+RobotCondition Wheel2Robot(const WheelCondition Wheel)
 {
     const RobotCondition Robot = {
         .X_velocity = (Wheel.A_velocity - Wheel.C_velocity) / (2 * sqrt2),
@@ -46,4 +46,13 @@ RobotCondition Wheel2Robot(const WheelCondition & Wheel)
             Wheel.C_velocity + Wheel.D_velocity) / (4 * R_of_robot),
     };
     return Robot;
+}
+
+Servos Servo2PLus(const Servos Servo)
+{
+    Servos Plus = {
+        .pitch = 500 + (Servo.pitch * 2000) / 180,
+        .yaw = 500 + Servo.yaw * 8
+    };
+    return Plus;
 }

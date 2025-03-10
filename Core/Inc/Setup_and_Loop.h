@@ -3,8 +3,7 @@
 #ifdef __cplusplus
 extern "C"{
 #endif
-
-    //define motors
+   //define motors
 #define A_MOTOR_TIM htim9
 #define A_MOTOR_CHANNEL_BI TIM_CHANNEL_2
 #define A_MOTOR_CHANNEL_FI TIM_CHANNEL_1
@@ -61,6 +60,12 @@ extern "C"{
 #define D_MOTOR_BI_GPIO_Port GPIOB
 #define D_MOTOR_FI_Pin GPIO_PIN_9
 #define D_MOTOR_FI_GPIO_Port GPIOB
+
+#define JETSON_HUART huart3
+
+#define SERVO_TIM htim3
+#define SERVO_PITCH_CHANNEL TIM_CHANNEL_3
+#define SERVO_YAW_CHANNEL TIM_CHANNEL_4
 
 void setup();
 void loop();
