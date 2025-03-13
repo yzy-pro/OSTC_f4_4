@@ -9,7 +9,7 @@
 
 RobotCondition getsettings()
 {
-    return {0,0,0};
+    return {50,50,50};
 }
 
 void setup()

@@ -14,8 +14,8 @@ extern "C"{
 #define encoder_resolution_u (4 * encoder_resolution * encoder_gear_ratio)//4分频
 #define conversion_factor (2 * M_PI * R_of_wheel * PID_rate / encoder_resolution_u) //轮子速度m/s与编码器转换系数
 
-#define R_of_robot 1.0//@@@
-#define R_of_wheel 1.0//@@@
+#define R_of_robot 0.98//@@@
+#define R_of_wheel 0.35//@@@
 #define Alpha 45.0//@@@
 
 double deg2rad(double x);
