@@ -43,8 +43,8 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-extern volatile uint8_t tim7_call = 0;
-extern volatile uint8_t dma2_call = 0;
+volatile uint8_t tim7_call = 0;
+volatile uint8_t dma2_call = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
