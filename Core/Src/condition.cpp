@@ -1,5 +1,5 @@
 #include "condition.h"
-#include <cmath>
+#include <math.h>
 double deg2rad(const double x)
 {
     return x * M_PI / 180.0;

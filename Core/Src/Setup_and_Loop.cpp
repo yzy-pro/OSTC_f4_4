@@ -1,11 +1,10 @@
 #include "PID.h"
 #include "encoder.h"
 #include "Setup_and_Loop.h"
-#include "tim.h"
 #include "motor.h"
 #include "jetson.h"
 #include "servo.h"
-#include "usart.h"
+
 
 RobotCondition getsettings()
 {
@@ -18,7 +17,6 @@ void setup()
     encoder_init();
     servo_init();
     jetson_init();
-
 }
 
 void loop()

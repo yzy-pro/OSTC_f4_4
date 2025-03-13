@@ -221,7 +221,7 @@ void USART1_IRQHandler(void)
 void DMA2_Stream2_IRQHandler(void)
 {
   /* USER CODE BEGIN DMA2_Stream2_IRQn 0 */
-  servos_control(Servo2PLus(Jetson2Servo(Jetson_init())));
+  servos_control(Servo2PLus(Jetson2Servo(jetson_init())));
   /* USER CODE END DMA2_Stream2_IRQn 0 */
   HAL_DMA_IRQHandler(&hdma_usart1_rx);
   /* USER CODE BEGIN DMA2_Stream2_IRQn 1 */
