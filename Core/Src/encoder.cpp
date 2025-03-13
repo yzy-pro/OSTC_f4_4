@@ -82,15 +82,15 @@ WheelCondition Encoder2Wheel(void)
     return Wheel;
 }
 
-bool encoder_timer()
-{
-    static uint32_t encoderTick = 0;
-
-    if (uwTick - encoderTick < PID_period)
-    {
-        return false;
-    }
-
-    encoderTick = uwTick;
-    return true;
-}
+// bool encoder_timer()
+// {
+//     static uint32_t encoderTick = 0;
+//
+//     if (uwTick - encoderTick < PID_period)
+//     {
+//         return false;
+//     }
+//
+//     encoderTick = uwTick;
+//     return true;
+// }

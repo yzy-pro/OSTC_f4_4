@@ -18,8 +18,8 @@ extern "C"{
 #define R_of_wheel 0.35//@@@
 #define Alpha 45.0//@@@
 
-double deg2rad(double x);
-double rad2deg(double x);
+static inline double deg2rad(double x);
+static inline double rad2deg(double x);
 
 typedef struct
 {

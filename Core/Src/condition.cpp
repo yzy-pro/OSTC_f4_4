@@ -1,11 +1,11 @@
 #include "condition.h"
 #include <math.h>
-double deg2rad(const double x)
+static inline double deg2rad(const double x)
 {
     return x * M_PI / 180.0;
 }
 
-double rad2deg(const double x)
+static inline double rad2deg(const double x)
 {
     return x * 180.0 / M_PI;
 }

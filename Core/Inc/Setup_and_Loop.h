@@ -34,6 +34,8 @@ extern "C"{
 
 void setup();
 void loop();
+#include "condition.h"
+RobotCondition getsettings();
 
 #ifdef __cplusplus
 }

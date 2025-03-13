@@ -13,7 +13,7 @@ void Encoder_SetCounter (int name, int value);
 
 WheelCondition Encoder2Wheel(void);
 
-bool encoder_timer();
+// bool encoder_timer();
 
 #ifdef __cplusplus
 }
