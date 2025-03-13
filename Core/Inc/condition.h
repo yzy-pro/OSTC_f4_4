@@ -57,6 +57,12 @@ typedef struct
     int yaw;
 }Servos;
 
+typedef struct
+{
+    double x;
+    double y;
+}Location;
+
 Polar_RobotCondition Cartesian2Polar(const RobotCondition Cartesian);
 RobotCondition Polar2Cartesian(const Polar_RobotCondition Polar);
 
@@ -64,6 +70,8 @@ WheelCondition Robot2Wheel(const RobotCondition Robot);
 RobotCondition Wheel2Robot(const WheelCondition Wheel);
 
 Servos Servo2PLus(const Servos Servo);
+Location GetLocation(const RobotCondition Robot);
+
 #ifdef  __cplusplus
 }
 #endif

@@ -32,7 +32,7 @@ void setup()
     __HAL_TIM_SetCounter(&htim4, 0);
     __HAL_TIM_SetCounter(&htim5, 0);
 
-    HAL_UART_Receive_IT(&huart3, rx_buffer, RX_BUFFER_SIZE);
+    HAL_UART_Receive_IT(&huart1, rx_buffer, RX_BUFFER_SIZE);
     motors_control({0, 0, 0, 0});
     servos_control({90, 135});
 }
@@ -44,5 +44,6 @@ void loop()
         const WheelCondition target = Robot2Wheel(getsettings());
         const WheelCondition current = Encoder2Wheel();
         motors_control(velocity_control(target, current));
+        Location location = GetLocation(Wheel2Robot(current));
     }
 }

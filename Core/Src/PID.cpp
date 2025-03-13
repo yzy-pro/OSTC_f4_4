@@ -37,8 +37,8 @@ double velocity_PID(const double target, double current)
     return pwm_velocity;
 }
 
-WheelCondition velocity_control(const WheelCondition & target,
-const WheelCondition & current)
+WheelCondition velocity_control(const WheelCondition target,
+const WheelCondition current)
 {
 
     const double pwm_A = velocity_PID(target.A_velocity, current.A_velocity);

@@ -29,7 +29,7 @@ extern "C"{
 
     //define pins
 
-#define JETSON_HUART huart3
+#define JETSON_HUART huart1
 
 #define SERVO_TIM htim3
 #define SERVO_PITCH_CHANNEL TIM_CHANNEL_3
@@ -41,4 +41,5 @@ void loop();
 #ifdef __cplusplus
 }
 #endif
+
 #endif //SETUP_AND_LOOP_H

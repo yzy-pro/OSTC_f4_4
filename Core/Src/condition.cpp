@@ -56,3 +56,17 @@ Servos Servo2PLus(const Servos Servo)
     };
     return Plus;
 }
+
+Location GetLocation(const RobotCondition Robot)
+{
+    static Location location=
+    {
+        .x=0,
+        .y=0,
+    };
+
+    location.x += Robot.X_velocity * PID_period * 1e3;
+    location.y += Robot.Y_velocity * PID_period * 1e3;
+
+    return location;
+}

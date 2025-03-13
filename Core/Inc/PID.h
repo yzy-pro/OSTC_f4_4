@@ -7,8 +7,8 @@ extern "C" {
 #include "condition.h"
 
 double velocity_PID(double target, double current);
-WheelCondition velocity_control(const WheelCondition & target, const
-WheelCondition & current);
+WheelCondition velocity_control(const WheelCondition target, const
+WheelCondition current);
 
 #ifdef __cplusplus
 }
