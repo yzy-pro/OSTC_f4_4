@@ -2,6 +2,20 @@
 #include "Setup_and_Loop.h"
 #include "tim.h"
 
+void motors_init()
+{
+    HAL_TIM_PWM_Start(&A_MOTOR_TIM, A_MOTOR_CHANNEL_FI);
+    HAL_TIM_PWM_Start(&A_MOTOR_TIM, A_MOTOR_CHANNEL_BI);
+    HAL_TIM_PWM_Start(&B_MOTOR_TIM, B_MOTOR_CHANNEL_FI);
+    HAL_TIM_PWM_Start(&B_MOTOR_TIM, B_MOTOR_CHANNEL_BI);
+    HAL_TIM_PWM_Start(&C_MOTOR_TIM, C_MOTOR_CHANNEL_FI);
+    HAL_TIM_PWM_Start(&C_MOTOR_TIM, C_MOTOR_CHANNEL_BI);
+    HAL_TIM_PWM_Start(&D_MOTOR_TIM_FI, D_MOTOR_CHANNEL_FI);
+    HAL_TIM_PWM_Start(&D_MOTOR_TIM_BI, D_MOTOR_CHANNEL_BI);
+
+    motors_control({0, 0, 0, 0});
+}
+
 void motor_control(const int name, int pwm_velocity)
 {
     if (pwm_velocity > abs_MAX_pwm_velocity || pwm_velocity < -abs_MAX_pwm_velocity)
@@ -20,21 +34,21 @@ void motor_control(const int name, int pwm_velocity)
     {
         if (pwm_velocity == 0)
         {
-            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_BI, 
-            abs_MAX_pwm_velocity);
             __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_FI, 
+            abs_MAX_pwm_velocity);
+            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_BI, 
             abs_MAX_pwm_velocity);
         }
         else if (pwm_velocity > 0)
         {
-            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_BI, pwm_velocity);
-            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_FI, 0);
+            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_FI, pwm_velocity);
+            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_BI, 0);
         }
         else if (pwm_velocity < -0)
         {
             pwm_velocity = -pwm_velocity;
-            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_BI, 0);
-            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_FI, pwm_velocity);
+            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_FI, 0);
+            __HAL_TIM_SetCompare(&A_MOTOR_TIM, A_MOTOR_CHANNEL_BI, pwm_velocity);
         }
 
     }
@@ -42,19 +56,19 @@ void motor_control(const int name, int pwm_velocity)
     {
         if (pwm_velocity == 0)
         {
-            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_BI, abs_MAX_pwm_velocity);
             __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_FI, abs_MAX_pwm_velocity);
+            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_BI, abs_MAX_pwm_velocity);
         }
         else if (pwm_velocity > 0)
         {
-            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_BI, pwm_velocity);
-            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_FI, 0);
+            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_FI, pwm_velocity);
+            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_BI, 0);
         }
         else if (pwm_velocity < -0)
         {
             pwm_velocity = -pwm_velocity;
-            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_BI, 0);
-            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_FI, pwm_velocity);
+            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_FI, 0);
+            __HAL_TIM_SetCompare(&B_MOTOR_TIM, B_MOTOR_CHANNEL_BI, pwm_velocity);
         }
 
     }
@@ -62,19 +76,19 @@ void motor_control(const int name, int pwm_velocity)
     {
         if (pwm_velocity == 0)
         {
-            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_BI, abs_MAX_pwm_velocity);
             __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_FI, abs_MAX_pwm_velocity);
+            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_BI, abs_MAX_pwm_velocity);
         }
         else if (pwm_velocity > 0)
         {
-            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_BI, pwm_velocity);
-            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_FI, 0);
+            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_FI, pwm_velocity);
+            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_BI, 0);
         }
         else if (pwm_velocity < -0)
         {
             pwm_velocity = -pwm_velocity;
-            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_BI, 0);
-            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_FI, pwm_velocity);
+            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_FI, 0);
+            __HAL_TIM_SetCompare(&C_MOTOR_TIM, C_MOTOR_CHANNEL_BI, pwm_velocity);
         }
 
     }
@@ -82,21 +96,21 @@ void motor_control(const int name, int pwm_velocity)
     {
         if (pwm_velocity == 0)
         {
-            __HAL_TIM_SetCompare(&D_MOTOR_TIM_BI, D_MOTOR_CHANNEL_BI, abs_MAX_pwm_velocity);
-            __HAL_TIM_SetCompare(&D_MOTOR_TIM_FI, D_MOTOR_CHANNEL_FI,
+            __HAL_TIM_SetCompare(&D_MOTOR_TIM_FI, D_MOTOR_CHANNEL_FI, abs_MAX_pwm_velocity);
+            __HAL_TIM_SetCompare(&D_MOTOR_TIM_BI, D_MOTOR_CHANNEL_BI,
             abs_MAX_pwm_velocity);
         }
         else if (pwm_velocity > 0)
         {
-            __HAL_TIM_SetCompare(&D_MOTOR_TIM_BI, D_MOTOR_CHANNEL_BI,
+            __HAL_TIM_SetCompare(&D_MOTOR_TIM_FI, D_MOTOR_CHANNEL_FI,
             pwm_velocity);
-            __HAL_TIM_SetCompare(&D_MOTOR_TIM_FI, D_MOTOR_CHANNEL_FI, 0);
+            __HAL_TIM_SetCompare(&D_MOTOR_TIM_BI, D_MOTOR_CHANNEL_BI, 0);
         }
         else if (pwm_velocity < -0)
         {
             pwm_velocity = -pwm_velocity;
-            __HAL_TIM_SetCompare(&D_MOTOR_TIM_BI, D_MOTOR_CHANNEL_BI, 0);
-            __HAL_TIM_SetCompare(&D_MOTOR_TIM_FI, D_MOTOR_CHANNEL_FI,
+            __HAL_TIM_SetCompare(&D_MOTOR_TIM_FI, D_MOTOR_CHANNEL_FI, 0);
+            __HAL_TIM_SetCompare(&D_MOTOR_TIM_BI, D_MOTOR_CHANNEL_BI,
             pwm_velocity);
         }
     }

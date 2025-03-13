@@ -7,6 +7,7 @@ extern "C" {
 
 #include "condition.h"
 
+void encoder_init(void);
 int Encoder_GetCounter (int name);
 void Encoder_SetCounter (int name, int value);
 

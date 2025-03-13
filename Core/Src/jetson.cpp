@@ -1,7 +1,21 @@
 #include "jetson.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include "stm32f4xx_hal_uart.h"
+#include "Setup_and_Loop.h"
+#include "usart.h"
 
+uint8_t * jetson_init()
+{
+    static const int RX_BUFFER_SIZE=100;
+    static auto JETSON_RX_BUFFER = (uint8_t*)malloc(RX_BUFFER_SIZE * sizeof
+    (uint8_t));
+    if (!__HAL_UART_GET_FLAG(&JETSON_HUART, UART_FLAG_RXNE))
+    {
+        HAL_UART_Receive_IT(&huart1, JETSON_RX_BUFFER, RX_BUFFER_SIZE);
+    }
+    return JETSON_RX_BUFFER;
+}
 
 Servos Jetson2Servo(const uint8_t* jetson_data)
 {
@@ -16,7 +30,6 @@ Servos Jetson2Servo(const uint8_t* jetson_data)
     //     printf("Invalid data format!\n");
     //     return {90, 135};
     // }
-
     Servos servo = {90, 135};
 
     const uint8_t* ptr = jetson_data;

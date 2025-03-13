@@ -6,6 +6,7 @@ extern "C" {
 
 #include "condition.h"
 
+void servo_init();
 void servo_control(int name, int pwm_angle);
 void servos_control(const Servos Plus);
 

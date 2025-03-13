@@ -6,9 +6,9 @@ extern "C" {
 #include <stdint.h>
 #include "condition.h"
 
-#define RX_BUFFER_SIZE 100
-extern uint8_t* rx_buffer;
 
+
+uint8_t * jetson_init(void);
 Servos Jetson2Servo(const uint8_t * jetson_data);
 #ifdef __cplusplus
 }

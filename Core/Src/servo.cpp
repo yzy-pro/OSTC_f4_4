@@ -3,6 +3,13 @@
 #include "stm32f4xx_hal_tim.h"
 #include "Setup_and_Loop.h"
 
+void servo_init()
+{
+    HAL_TIM_PWM_Start(&SERVO_TIM, SERVO_PITCH_CHANNEL);
+    HAL_TIM_PWM_Start(&SERVO_TIM, SERVO_YAW_CHANNEL);
+    servos_control({90, 135});
+}
+
 void servo_control(int name, int pwm_angle)
 {
     if (name == 'P')
