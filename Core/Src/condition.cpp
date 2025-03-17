@@ -47,7 +47,7 @@ RobotCondition Wheel2Robot(const WheelCondition Wheel)
     return Robot;
 }
 
-Servos Servo2Plus(const Servos Servo)
+Servos Servo2PLus(const Servos Servo)
 {
     Servos Plus = {
         .pitch = 500 + (Servo.pitch * 2000) / 180,

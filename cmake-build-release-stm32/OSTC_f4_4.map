@@ -1829,7 +1829,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtn.o
                 0x08000000                g_pfnVectors
                 0x08000188                        . = ALIGN (0x4)
 
-.text           0x080001c0    0x10ac4
+.text           0x080001c0    0x10a90
                 0x080001c0                        . = ALIGN (0x4)
  *(.text)
  .text          0x080001c0       0x88 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
@@ -2219,949 +2219,949 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtn.o
                 0x0800cc18       0xa8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj
                 0x0800cc18                Encoder2Wheel
  .text.MX_GPIO_Init
-                0x0800ccc0       0xa8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj
+                0x0800ccc0       0x74 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/gpio.c.obj
                 0x0800ccc0                MX_GPIO_Init
  .text.jetson_init
-                0x0800cd68       0x38 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
-                0x0800cd68                jetson_init
+                0x0800cd34       0x38 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
+                0x0800cd34                jetson_init
  .text.Jetson2Servo
-                0x0800cda0       0x48 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
-                0x0800cda0                Jetson2Servo
+                0x0800cd6c       0x48 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
+                0x0800cd6c                Jetson2Servo
  .text.SystemClock_Config
-                0x0800cde8       0xa4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj
-                0x0800cde8                SystemClock_Config
+                0x0800cdb4       0xa4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj
+                0x0800cdb4                SystemClock_Config
  .text.startup.main
-                0x0800ce8c       0x48 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj
-                0x0800ce8c                main
+                0x0800ce58       0x48 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj
+                0x0800ce58                main
  .text.Error_Handler
-                0x0800ced4        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj
-                0x0800ced4                Error_Handler
+                0x0800cea0        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/main.c.obj
+                0x0800cea0                Error_Handler
  .text.motors_init
-                0x0800ced8       0x78 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj
-                0x0800ced8                motors_init
+                0x0800cea4       0x78 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj
+                0x0800cea4                motors_init
  .text.motors_control
-                0x0800cf50      0x11c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj
-                0x0800cf50                motors_control
+                0x0800cf1c      0x11c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj
+                0x0800cf1c                motors_control
  .text.servo_init
-                0x0800d06c       0x24 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/servo.cpp.obj
-                0x0800d06c                servo_init
+                0x0800d038       0x24 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/servo.cpp.obj
+                0x0800d038                servo_init
  .text.servos_control
-                0x0800d090       0x1c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/servo.cpp.obj
-                0x0800d090                servos_control
+                0x0800d05c       0x1c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/servo.cpp.obj
+                0x0800d05c                servos_control
  .text.HAL_MspInit
-                0x0800d0ac       0x38 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x0800d0ac                HAL_MspInit
+                0x0800d078       0x38 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x0800d078                HAL_MspInit
  .text.NMI_Handler
-                0x0800d0e4        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d0e4                NMI_Handler
+                0x0800d0b0        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0b0                NMI_Handler
  .text.HardFault_Handler
-                0x0800d0e8        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d0e8                HardFault_Handler
+                0x0800d0b4        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0b4                HardFault_Handler
  .text.MemManage_Handler
-                0x0800d0ec        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d0ec                MemManage_Handler
+                0x0800d0b8        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0b8                MemManage_Handler
  .text.BusFault_Handler
-                0x0800d0f0        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d0f0                BusFault_Handler
+                0x0800d0bc        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0bc                BusFault_Handler
  .text.UsageFault_Handler
-                0x0800d0f4        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d0f4                UsageFault_Handler
+                0x0800d0c0        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0c0                UsageFault_Handler
  .text.SVC_Handler
-                0x0800d0f8        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d0f8                SVC_Handler
+                0x0800d0c4        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0c4                SVC_Handler
  .text.DebugMon_Handler
-                0x0800d0fc        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d0fc                DebugMon_Handler
+                0x0800d0c8        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0c8                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800d100        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d100                PendSV_Handler
+                0x0800d0cc        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0cc                PendSV_Handler
  .text.SysTick_Handler
-                0x0800d104        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d104                SysTick_Handler
+                0x0800d0d0        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0d0                SysTick_Handler
  .text.TIM7_IRQHandler
-                0x0800d108       0x18 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d108                TIM7_IRQHandler
+                0x0800d0d4       0x18 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0d4                TIM7_IRQHandler
  .text.DMA2_Stream2_IRQHandler
-                0x0800d120       0x18 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800d120                DMA2_Stream2_IRQHandler
- .text._getpid  0x0800d138        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
-                0x0800d138                _getpid
- .text._kill    0x0800d13c       0x10 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
-                0x0800d13c                _kill
- .text._exit    0x0800d14c        0xc CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
-                0x0800d14c                _exit
- .text._read    0x0800d158       0x1c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
-                0x0800d158                _read
- .text._write   0x0800d174       0x1c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
-                0x0800d174                _write
- .text._close   0x0800d190        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
-                0x0800d190                _close
- .text._fstat   0x0800d198        0xc CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
-                0x0800d198                _fstat
- .text._isatty  0x0800d1a4        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
-                0x0800d1a4                _isatty
- .text._lseek   0x0800d1a8        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
-                0x0800d1a8                _lseek
- .text._sbrk    0x0800d1ac       0x44 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.obj
-                0x0800d1ac                _sbrk
+                0x0800d0ec       0x18 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800d0ec                DMA2_Stream2_IRQHandler
+ .text._getpid  0x0800d104        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
+                0x0800d104                _getpid
+ .text._kill    0x0800d108       0x10 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
+                0x0800d108                _kill
+ .text._exit    0x0800d118        0xc CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
+                0x0800d118                _exit
+ .text._read    0x0800d124       0x1c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
+                0x0800d124                _read
+ .text._write   0x0800d140       0x1c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
+                0x0800d140                _write
+ .text._close   0x0800d15c        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
+                0x0800d15c                _close
+ .text._fstat   0x0800d164        0xc CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
+                0x0800d164                _fstat
+ .text._isatty  0x0800d170        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
+                0x0800d170                _isatty
+ .text._lseek   0x0800d174        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/syscalls.c.obj
+                0x0800d174                _lseek
+ .text._sbrk    0x0800d178       0x44 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/sysmem.c.obj
+                0x0800d178                _sbrk
  .text.SystemInit
-                0x0800d1f0        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x0800d1f0                SystemInit
+                0x0800d1bc        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x0800d1bc                SystemInit
  .text.MX_TIM2_Init
-                0x0800d1f4       0x64 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d1f4                MX_TIM2_Init
+                0x0800d1c0       0x64 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d1c0                MX_TIM2_Init
  .text.MX_TIM3_Init
-                0x0800d258       0x68 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d258                MX_TIM3_Init
+                0x0800d224       0x68 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d224                MX_TIM3_Init
  .text.MX_TIM4_Init
-                0x0800d2c0       0x68 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d2c0                MX_TIM4_Init
+                0x0800d28c       0x68 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d28c                MX_TIM4_Init
  .text.MX_TIM5_Init
-                0x0800d328       0x68 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d328                MX_TIM5_Init
+                0x0800d2f4       0x68 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d2f4                MX_TIM5_Init
  .text.MX_TIM7_Init
-                0x0800d390       0x54 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d390                MX_TIM7_Init
+                0x0800d35c       0x54 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d35c                MX_TIM7_Init
  .text.MX_TIM10_Init
-                0x0800d3e4      0x1a4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d3e4                MX_TIM10_Init
+                0x0800d3b0      0x1a4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d3b0                MX_TIM10_Init
  .text.MX_TIM11_Init
-                0x0800d588      0x1a4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d588                MX_TIM11_Init
+                0x0800d554      0x1a4 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d554                MX_TIM11_Init
  .text.HAL_TIM_Base_MspInit
-                0x0800d72c      0x100 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d72c                HAL_TIM_Base_MspInit
+                0x0800d6f8      0x100 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d6f8                HAL_TIM_Base_MspInit
  .text.HAL_TIM_Encoder_MspInit
-                0x0800d82c      0x17c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d82c                HAL_TIM_Encoder_MspInit
+                0x0800d7f8      0x17c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d7f8                HAL_TIM_Encoder_MspInit
  .text.HAL_TIM_MspPostInit
-                0x0800d9a8      0x144 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800d9a8                HAL_TIM_MspPostInit
+                0x0800d974      0x144 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800d974                HAL_TIM_MspPostInit
  .text.MX_TIM1_Init
-                0x0800daec      0x130 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800daec                MX_TIM1_Init
+                0x0800dab8      0x130 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800dab8                MX_TIM1_Init
  .text.MX_TIM8_Init
-                0x0800dc1c      0x10c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800dc1c                MX_TIM8_Init
+                0x0800dbe8      0x10c CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800dbe8                MX_TIM8_Init
  .text.MX_TIM9_Init
-                0x0800dd28       0xac CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
-                0x0800dd28                MX_TIM9_Init
+                0x0800dcf4       0xac CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/tim.c.obj
+                0x0800dcf4                MX_TIM9_Init
  .text.MX_USART1_UART_Init
-                0x0800ddd4       0x38 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/usart.c.obj
-                0x0800ddd4                MX_USART1_UART_Init
+                0x0800dda0       0x38 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/usart.c.obj
+                0x0800dda0                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x0800de0c       0xb0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/usart.c.obj
-                0x0800de0c                HAL_UART_MspInit
+                0x0800ddd8       0xb0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/usart.c.obj
+                0x0800ddd8                HAL_UART_MspInit
  .text.Reset_Handler
-                0x0800debc       0x50 CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
-                0x0800debc                Reset_Handler
+                0x0800de88       0x50 CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
+                0x0800de88                Reset_Handler
  .text.Default_Handler
-                0x0800df0c        0x2 CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
-                0x0800df0c                RTC_Alarm_IRQHandler
-                0x0800df0c                HASH_RNG_IRQHandler
-                0x0800df0c                EXTI2_IRQHandler
-                0x0800df0c                TIM8_CC_IRQHandler
-                0x0800df0c                TIM1_CC_IRQHandler
-                0x0800df0c                DMA2_Stream5_IRQHandler
-                0x0800df0c                DMA1_Stream5_IRQHandler
-                0x0800df0c                PVD_IRQHandler
-                0x0800df0c                SDIO_IRQHandler
-                0x0800df0c                TAMP_STAMP_IRQHandler
-                0x0800df0c                CAN2_RX1_IRQHandler
-                0x0800df0c                EXTI3_IRQHandler
-                0x0800df0c                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0800df0c                TIM1_UP_TIM10_IRQHandler
-                0x0800df0c                TIM8_UP_TIM13_IRQHandler
-                0x0800df0c                I2C3_ER_IRQHandler
-                0x0800df0c                EXTI0_IRQHandler
-                0x0800df0c                I2C2_EV_IRQHandler
-                0x0800df0c                DMA1_Stream2_IRQHandler
-                0x0800df0c                CAN1_RX0_IRQHandler
-                0x0800df0c                FPU_IRQHandler
-                0x0800df0c                OTG_HS_WKUP_IRQHandler
-                0x0800df0c                CAN2_SCE_IRQHandler
-                0x0800df0c                SPI1_IRQHandler
-                0x0800df0c                TIM6_DAC_IRQHandler
-                0x0800df0c                TIM1_BRK_TIM9_IRQHandler
-                0x0800df0c                DCMI_IRQHandler
-                0x0800df0c                CAN2_RX0_IRQHandler
-                0x0800df0c                DMA2_Stream3_IRQHandler
-                0x0800df0c                USART6_IRQHandler
-                0x0800df0c                USART3_IRQHandler
-                0x0800df0c                CAN1_RX1_IRQHandler
-                0x0800df0c                UART5_IRQHandler
-                0x0800df0c                DMA2_Stream0_IRQHandler
-                0x0800df0c                TIM4_IRQHandler
-                0x0800df0c                I2C1_EV_IRQHandler
-                0x0800df0c                DMA1_Stream6_IRQHandler
-                0x0800df0c                DMA1_Stream1_IRQHandler
-                0x0800df0c                UART4_IRQHandler
-                0x0800df0c                TIM3_IRQHandler
-                0x0800df0c                RCC_IRQHandler
-                0x0800df0c                TIM8_BRK_TIM12_IRQHandler
-                0x0800df0c                Default_Handler
-                0x0800df0c                EXTI15_10_IRQHandler
-                0x0800df0c                ADC_IRQHandler
-                0x0800df0c                DMA1_Stream7_IRQHandler
-                0x0800df0c                CAN2_TX_IRQHandler
-                0x0800df0c                TIM5_IRQHandler
-                0x0800df0c                DMA2_Stream7_IRQHandler
-                0x0800df0c                I2C3_EV_IRQHandler
-                0x0800df0c                EXTI9_5_IRQHandler
-                0x0800df0c                RTC_WKUP_IRQHandler
-                0x0800df0c                ETH_WKUP_IRQHandler
-                0x0800df0c                SPI2_IRQHandler
-                0x0800df0c                OTG_HS_EP1_IN_IRQHandler
-                0x0800df0c                DMA1_Stream0_IRQHandler
-                0x0800df0c                CAN1_TX_IRQHandler
-                0x0800df0c                EXTI4_IRQHandler
-                0x0800df0c                FSMC_IRQHandler
-                0x0800df0c                ETH_IRQHandler
-                0x0800df0c                OTG_HS_EP1_OUT_IRQHandler
-                0x0800df0c                WWDG_IRQHandler
-                0x0800df0c                TIM2_IRQHandler
-                0x0800df0c                OTG_FS_WKUP_IRQHandler
-                0x0800df0c                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0800df0c                OTG_HS_IRQHandler
-                0x0800df0c                EXTI1_IRQHandler
-                0x0800df0c                USART2_IRQHandler
-                0x0800df0c                I2C2_ER_IRQHandler
-                0x0800df0c                DMA2_Stream1_IRQHandler
-                0x0800df0c                CAN1_SCE_IRQHandler
-                0x0800df0c                FLASH_IRQHandler
-                0x0800df0c                DMA2_Stream4_IRQHandler
-                0x0800df0c                USART1_IRQHandler
-                0x0800df0c                OTG_FS_IRQHandler
-                0x0800df0c                SPI3_IRQHandler
-                0x0800df0c                DMA1_Stream4_IRQHandler
-                0x0800df0c                I2C1_ER_IRQHandler
-                0x0800df0c                DMA2_Stream6_IRQHandler
-                0x0800df0c                DMA1_Stream3_IRQHandler
- *fill*         0x0800df0e        0x2 
+                0x0800ded8        0x2 CMakeFiles/OSTC_f4_4.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
+                0x0800ded8                RTC_Alarm_IRQHandler
+                0x0800ded8                HASH_RNG_IRQHandler
+                0x0800ded8                EXTI2_IRQHandler
+                0x0800ded8                TIM8_CC_IRQHandler
+                0x0800ded8                TIM1_CC_IRQHandler
+                0x0800ded8                DMA2_Stream5_IRQHandler
+                0x0800ded8                DMA1_Stream5_IRQHandler
+                0x0800ded8                PVD_IRQHandler
+                0x0800ded8                SDIO_IRQHandler
+                0x0800ded8                TAMP_STAMP_IRQHandler
+                0x0800ded8                CAN2_RX1_IRQHandler
+                0x0800ded8                EXTI3_IRQHandler
+                0x0800ded8                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0800ded8                TIM1_UP_TIM10_IRQHandler
+                0x0800ded8                TIM8_UP_TIM13_IRQHandler
+                0x0800ded8                I2C3_ER_IRQHandler
+                0x0800ded8                EXTI0_IRQHandler
+                0x0800ded8                I2C2_EV_IRQHandler
+                0x0800ded8                DMA1_Stream2_IRQHandler
+                0x0800ded8                CAN1_RX0_IRQHandler
+                0x0800ded8                FPU_IRQHandler
+                0x0800ded8                OTG_HS_WKUP_IRQHandler
+                0x0800ded8                CAN2_SCE_IRQHandler
+                0x0800ded8                SPI1_IRQHandler
+                0x0800ded8                TIM6_DAC_IRQHandler
+                0x0800ded8                TIM1_BRK_TIM9_IRQHandler
+                0x0800ded8                DCMI_IRQHandler
+                0x0800ded8                CAN2_RX0_IRQHandler
+                0x0800ded8                DMA2_Stream3_IRQHandler
+                0x0800ded8                USART6_IRQHandler
+                0x0800ded8                USART3_IRQHandler
+                0x0800ded8                CAN1_RX1_IRQHandler
+                0x0800ded8                UART5_IRQHandler
+                0x0800ded8                DMA2_Stream0_IRQHandler
+                0x0800ded8                TIM4_IRQHandler
+                0x0800ded8                I2C1_EV_IRQHandler
+                0x0800ded8                DMA1_Stream6_IRQHandler
+                0x0800ded8                DMA1_Stream1_IRQHandler
+                0x0800ded8                UART4_IRQHandler
+                0x0800ded8                TIM3_IRQHandler
+                0x0800ded8                RCC_IRQHandler
+                0x0800ded8                TIM8_BRK_TIM12_IRQHandler
+                0x0800ded8                Default_Handler
+                0x0800ded8                EXTI15_10_IRQHandler
+                0x0800ded8                ADC_IRQHandler
+                0x0800ded8                DMA1_Stream7_IRQHandler
+                0x0800ded8                CAN2_TX_IRQHandler
+                0x0800ded8                TIM5_IRQHandler
+                0x0800ded8                DMA2_Stream7_IRQHandler
+                0x0800ded8                I2C3_EV_IRQHandler
+                0x0800ded8                EXTI9_5_IRQHandler
+                0x0800ded8                RTC_WKUP_IRQHandler
+                0x0800ded8                ETH_WKUP_IRQHandler
+                0x0800ded8                SPI2_IRQHandler
+                0x0800ded8                OTG_HS_EP1_IN_IRQHandler
+                0x0800ded8                DMA1_Stream0_IRQHandler
+                0x0800ded8                CAN1_TX_IRQHandler
+                0x0800ded8                EXTI4_IRQHandler
+                0x0800ded8                FSMC_IRQHandler
+                0x0800ded8                ETH_IRQHandler
+                0x0800ded8                OTG_HS_EP1_OUT_IRQHandler
+                0x0800ded8                WWDG_IRQHandler
+                0x0800ded8                TIM2_IRQHandler
+                0x0800ded8                OTG_FS_WKUP_IRQHandler
+                0x0800ded8                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0800ded8                OTG_HS_IRQHandler
+                0x0800ded8                EXTI1_IRQHandler
+                0x0800ded8                USART2_IRQHandler
+                0x0800ded8                I2C2_ER_IRQHandler
+                0x0800ded8                DMA2_Stream1_IRQHandler
+                0x0800ded8                CAN1_SCE_IRQHandler
+                0x0800ded8                FLASH_IRQHandler
+                0x0800ded8                DMA2_Stream4_IRQHandler
+                0x0800ded8                USART1_IRQHandler
+                0x0800ded8                OTG_FS_IRQHandler
+                0x0800ded8                SPI3_IRQHandler
+                0x0800ded8                DMA1_Stream4_IRQHandler
+                0x0800ded8                I2C1_ER_IRQHandler
+                0x0800ded8                DMA2_Stream6_IRQHandler
+                0x0800ded8                DMA1_Stream3_IRQHandler
+ *fill*         0x0800deda        0x2 
  .text.HAL_InitTick
-                0x0800df10       0x48 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0800df10                HAL_InitTick
+                0x0800dedc       0x48 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0800dedc                HAL_InitTick
  .text.HAL_Init
-                0x0800df58       0x34 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0800df58                HAL_Init
+                0x0800df24       0x34 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0800df24                HAL_Init
  .text.HAL_IncTick
-                0x0800df8c       0x18 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0800df8c                HAL_IncTick
+                0x0800df58       0x18 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0800df58                HAL_IncTick
  .text.HAL_GetTick
-                0x0800dfa4        0xc CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0800dfa4                HAL_GetTick
+                0x0800df70        0xc CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0800df70                HAL_GetTick
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0800dfb0       0x24 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800dfb0                HAL_NVIC_SetPriorityGrouping
+                0x0800df7c       0x24 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0800df7c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0800dfd4       0x78 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800dfd4                HAL_NVIC_SetPriority
+                0x0800dfa0       0x78 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0800dfa0                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0800e04c       0x1c CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800e04c                HAL_NVIC_EnableIRQ
+                0x0800e018       0x1c CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0800e018                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0800e068       0x30 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800e068                HAL_SYSTICK_Config
+                0x0800e034       0x30 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0800e034                HAL_SYSTICK_Config
  .text.HAL_DMA_Init
-                0x0800e098      0x128 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x0800e098                HAL_DMA_Init
+                0x0800e064      0x128 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0800e064                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x0800e1c0       0x78 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x0800e1c0                HAL_DMA_Start_IT
+                0x0800e18c       0x78 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0800e18c                HAL_DMA_Start_IT
  .text.HAL_DMA_IRQHandler
-                0x0800e238      0x1ac CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x0800e238                HAL_DMA_IRQHandler
+                0x0800e204      0x1ac CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0800e204                HAL_DMA_IRQHandler
  .text.HAL_GPIO_Init
-                0x0800e3e4      0x3fc CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x0800e3e4                HAL_GPIO_Init
+                0x0800e3b0      0x3fc CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x0800e3b0                HAL_GPIO_Init
  .text.HAL_RCC_OscConfig
-                0x0800e7e0      0x3c4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800e7e0                HAL_RCC_OscConfig
+                0x0800e7ac      0x3c4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0800e7ac                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0800eba4       0x68 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800eba4                HAL_RCC_GetSysClockFreq
+                0x0800eb70       0x68 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0800eb70                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x0800ec0c      0x13c CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800ec0c                HAL_RCC_ClockConfig
+                0x0800ebd8      0x13c CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0800ebd8                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetPCLK1Freq
-                0x0800ed48       0x20 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800ed48                HAL_RCC_GetPCLK1Freq
+                0x0800ed14       0x20 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0800ed14                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0800ed68       0x20 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800ed68                HAL_RCC_GetPCLK2Freq
+                0x0800ed34       0x20 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0800ed34                HAL_RCC_GetPCLK2Freq
  .text.HAL_TIM_Base_Init
-                0x0800ed88      0x130 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800ed88                HAL_TIM_Base_Init
+                0x0800ed54      0x130 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800ed54                HAL_TIM_Base_Init
  .text.HAL_TIM_PWM_MspInit
-                0x0800eeb8        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800eeb8                HAL_TIM_PWM_MspInit
+                0x0800ee84        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800ee84                HAL_TIM_PWM_MspInit
  .text.HAL_TIM_PWM_Init
-                0x0800eebc      0x130 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800eebc                HAL_TIM_PWM_Init
+                0x0800ee88      0x130 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800ee88                HAL_TIM_PWM_Init
  .text.HAL_TIM_PWM_Start
-                0x0800efec       0xd0 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800efec                HAL_TIM_PWM_Start
+                0x0800efb8       0xd0 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800efb8                HAL_TIM_PWM_Start
  .text.HAL_TIM_Encoder_Init
-                0x0800f0bc      0x184 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f0bc                HAL_TIM_Encoder_Init
+                0x0800f088      0x184 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f088                HAL_TIM_Encoder_Init
  .text.HAL_TIM_Encoder_Start
-                0x0800f240       0xc4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f240                HAL_TIM_Encoder_Start
+                0x0800f20c       0xc4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f20c                HAL_TIM_Encoder_Start
  .text.HAL_TIM_PWM_ConfigChannel
-                0x0800f304      0x20c CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f304                HAL_TIM_PWM_ConfigChannel
+                0x0800f2d0      0x20c CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f2d0                HAL_TIM_PWM_ConfigChannel
  .text.HAL_TIM_ConfigClockSource
-                0x0800f510      0x154 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f510                HAL_TIM_ConfigClockSource
+                0x0800f4dc      0x154 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f4dc                HAL_TIM_ConfigClockSource
  .text.HAL_TIM_PeriodElapsedCallback
-                0x0800f664        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f664                HAL_TIM_PeriodElapsedCallback
+                0x0800f630        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f630                HAL_TIM_PeriodElapsedCallback
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x0800f668        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f668                HAL_TIM_OC_DelayElapsedCallback
+                0x0800f634        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f634                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x0800f66c        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f66c                HAL_TIM_IC_CaptureCallback
+                0x0800f638        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f638                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x0800f670        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f670                HAL_TIM_PWM_PulseFinishedCallback
+                0x0800f63c        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f63c                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x0800f674        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f674                HAL_TIM_TriggerCallback
+                0x0800f640        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f640                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x0800f678      0x138 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800f678                HAL_TIM_IRQHandler
+                0x0800f644      0x138 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800f644                HAL_TIM_IRQHandler
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x0800f7b0       0x80 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0800f7b0                HAL_TIMEx_MasterConfigSynchronization
+                0x0800f77c       0x80 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x0800f77c                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_ConfigBreakDeadTime
-                0x0800f830       0x54 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0800f830                HAL_TIMEx_ConfigBreakDeadTime
+                0x0800f7fc       0x54 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x0800f7fc                HAL_TIMEx_ConfigBreakDeadTime
  .text.HAL_TIMEx_CommutCallback
-                0x0800f884        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0800f884                HAL_TIMEx_CommutCallback
+                0x0800f850        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x0800f850                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x0800f888        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0800f888                HAL_TIMEx_BreakCallback
+                0x0800f854        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x0800f854                HAL_TIMEx_BreakCallback
  .text.HAL_UART_Init
-                0x0800f88c      0x124 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800f88c                HAL_UART_Init
+                0x0800f858      0x124 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800f858                HAL_UART_Init
  .text.HAL_UART_RxCpltCallback
-                0x0800f9b0        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800f9b0                HAL_UART_RxCpltCallback
+                0x0800f97c        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800f97c                HAL_UART_RxCpltCallback
  .text.HAL_UART_RxHalfCpltCallback
-                0x0800f9b4        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800f9b4                HAL_UART_RxHalfCpltCallback
+                0x0800f980        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800f980                HAL_UART_RxHalfCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x0800f9b8        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800f9b8                HAL_UART_ErrorCallback
+                0x0800f984        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800f984                HAL_UART_ErrorCallback
  .text.UART_DMAError
-                0x0800f9bc       0xbc CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800f988       0xbc CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UARTEx_RxEventCallback
-                0x0800fa78        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800fa78                HAL_UARTEx_RxEventCallback
+                0x0800fa44        0x4 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800fa44                HAL_UARTEx_RxEventCallback
  .text.UART_DMARxHalfCplt
-                0x0800fa7c       0x20 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800fa48       0x20 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_DMAReceiveCplt
-                0x0800fa9c       0x98 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800fa68       0x98 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_Start_Receive_DMA
-                0x0800fb34       0x9c CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800fb34                UART_Start_Receive_DMA
+                0x0800fb00       0x9c CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800fb00                UART_Start_Receive_DMA
  .text.HAL_UART_Receive_DMA
-                0x0800fbd0       0x24 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800fbd0                HAL_UART_Receive_DMA
+                0x0800fb9c       0x24 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800fb9c                HAL_UART_Receive_DMA
  .text.__cxa_guard_acquire
-                0x0800fbf4       0x38 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard.o)
-                0x0800fbf4                __cxa_guard_acquire
+                0x0800fbc0       0x38 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard.o)
+                0x0800fbc0                __cxa_guard_acquire
  .text.__cxa_guard_release
-                0x0800fc2c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard.o)
-                0x0800fc2c                __cxa_guard_release
+                0x0800fbf8        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard.o)
+                0x0800fbf8                __cxa_guard_release
  .text._ZN9__gnu_cxx20recursive_init_errorD2Ev
-                0x0800fc34       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
-                0x0800fc34                __gnu_cxx::recursive_init_error::~recursive_init_error()
-                0x0800fc34                __gnu_cxx::recursive_init_error::~recursive_init_error()
+                0x0800fc00       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
+                0x0800fc00                __gnu_cxx::recursive_init_error::~recursive_init_error()
+                0x0800fc00                __gnu_cxx::recursive_init_error::~recursive_init_error()
  .text._ZN9__gnu_cxx20recursive_init_errorD0Ev
-                0x0800fc48       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
-                0x0800fc48                __gnu_cxx::recursive_init_error::~recursive_init_error()
+                0x0800fc14       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
+                0x0800fc14                __gnu_cxx::recursive_init_error::~recursive_init_error()
  .text._ZN9__gnu_cxx20recursive_init_errorC2Ev
-                0x0800fc64        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
-                0x0800fc64                __gnu_cxx::recursive_init_error::recursive_init_error()
-                0x0800fc64                __gnu_cxx::recursive_init_error::recursive_init_error()
+                0x0800fc30        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
+                0x0800fc30                __gnu_cxx::recursive_init_error::recursive_init_error()
+                0x0800fc30                __gnu_cxx::recursive_init_error::recursive_init_error()
  .text._ZN10__cxxabiv120__si_class_type_infoD2Ev
-                0x0800fc70       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
-                0x0800fc70                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
-                0x0800fc70                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+                0x0800fc3c       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x0800fc3c                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+                0x0800fc3c                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
  .text._ZN10__cxxabiv120__si_class_type_infoD0Ev
-                0x0800fc84       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
-                0x0800fc84                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+                0x0800fc50       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x0800fc50                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
  .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
-                0x0800fca0       0x3c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
-                0x0800fca0                __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+                0x0800fc6c       0x3c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x0800fc6c                __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
  .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
-                0x0800fcdc       0x84 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
-                0x0800fcdc                __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+                0x0800fca8       0x84 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x0800fca8                __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
  .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
-                0x0800fd60       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
-                0x0800fd60                __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+                0x0800fd2c       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x0800fd2c                __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
  .text._ZNSt9type_infoD2Ev
-                0x0800fd8c        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
-                0x0800fd8c                std::type_info::~type_info()
-                0x0800fd8c                std::type_info::~type_info()
+                0x0800fd58        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
+                0x0800fd58                std::type_info::~type_info()
+                0x0800fd58                std::type_info::~type_info()
  .text._ZNKSt9type_info14__is_pointer_pEv
-                0x0800fd90        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
-                0x0800fd90                std::type_info::__is_function_p() const
-                0x0800fd90                std::type_info::__is_pointer_p() const
+                0x0800fd5c        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
+                0x0800fd5c                std::type_info::__is_function_p() const
+                0x0800fd5c                std::type_info::__is_pointer_p() const
  .text._ZNKSt9type_infoeqERKS_
-                0x0800fd94       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
-                0x0800fd94                std::type_info::__equal(std::type_info const&) const
-                0x0800fd94                std::type_info::operator==(std::type_info const&) const
+                0x0800fd60       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
+                0x0800fd60                std::type_info::__equal(std::type_info const&) const
+                0x0800fd60                std::type_info::operator==(std::type_info const&) const
  .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
-                0x0800fdc0       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x0800fdc0                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+                0x0800fd8c       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x0800fd8c                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
  .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
-                0x0800fdf4        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x0800fdf4                __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+                0x0800fdc0        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x0800fdc0                __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
  .text._ZN10__cxxabiv117__class_type_infoD2Ev
-                0x0800fe00       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x0800fe00                __cxxabiv1::__class_type_info::~__class_type_info()
-                0x0800fe00                __cxxabiv1::__class_type_info::~__class_type_info()
+                0x0800fdcc       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x0800fdcc                __cxxabiv1::__class_type_info::~__class_type_info()
+                0x0800fdcc                __cxxabiv1::__class_type_info::~__class_type_info()
  .text._ZN10__cxxabiv117__class_type_infoD0Ev
-                0x0800fe14       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x0800fe14                __cxxabiv1::__class_type_info::~__class_type_info()
+                0x0800fde0       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x0800fde0                __cxxabiv1::__class_type_info::~__class_type_info()
  .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
-                0x0800fe30       0x44 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x0800fe30                __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+                0x0800fdfc       0x44 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x0800fdfc                __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
  .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
-                0x0800fe74       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x0800fe74                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+                0x0800fe40       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x0800fe40                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
  .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
-                0x0800fe90       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x0800fe90                __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
- .text._ZdlPvj  0x0800febc        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(del_ops.o)
-                0x0800febc                operator delete(void*, unsigned int)
+                0x0800fe5c       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x0800fe5c                __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+ .text._ZdlPvj  0x0800fe88        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(del_ops.o)
+                0x0800fe88                operator delete(void*, unsigned int)
  .text._ZN12_GLOBAL__N_14pool4freeEPv.constprop.0
-                0x0800fec0       0x80 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x0800fe8c       0x80 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
  .text._ZN12_GLOBAL__N_14pool8allocateEj.constprop.0
-                0x0800ff40       0x58 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x0800ff0c       0x58 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
  .text.__cxa_allocate_exception
-                0x0800ff98       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
-                0x0800ff98                __cxa_allocate_exception
+                0x0800ff64       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x0800ff64                __cxa_allocate_exception
  .text.__cxa_free_exception
-                0x0800ffc8       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
-                0x0800ffc8                __cxa_free_exception
+                0x0800ff94       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x0800ff94                __cxa_free_exception
  .text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-                0x0800ffe8      0x100 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x0800ffb4      0x100 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
  .text._ZNSt9exceptionD2Ev
-                0x080100e8        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x080100e8                std::exception::~exception()
-                0x080100e8                std::exception::~exception()
+                0x080100b4        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080100b4                std::exception::~exception()
+                0x080100b4                std::exception::~exception()
  .text._ZNSt13bad_exceptionD2Ev
-                0x080100ec        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x080100ec                std::bad_exception::~bad_exception()
-                0x080100ec                std::bad_exception::~bad_exception()
+                0x080100b8        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080100b8                std::bad_exception::~bad_exception()
+                0x080100b8                std::bad_exception::~bad_exception()
  .text._ZNKSt9exception4whatEv
-                0x080100f0        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x080100f0                transaction clone for std::exception::what() const
-                0x080100f0                std::exception::what() const
+                0x080100bc        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080100bc                transaction clone for std::exception::what() const
+                0x080100bc                std::exception::what() const
  .text._ZNKSt13bad_exception4whatEv
-                0x080100f8        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x080100f8                transaction clone for std::bad_exception::what() const
-                0x080100f8                std::bad_exception::what() const
+                0x080100c4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080100c4                transaction clone for std::bad_exception::what() const
+                0x080100c4                std::bad_exception::what() const
  .text._ZNSt13bad_exceptionD0Ev
-                0x08010100       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x08010100                std::bad_exception::~bad_exception()
+                0x080100cc       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080100cc                std::bad_exception::~bad_exception()
  .text._ZN10__cxxabiv111__terminateEPFvvE
-                0x08010110       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
-                0x08010110                __cxxabiv1::__terminate(void (*)())
+                0x080100dc       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x080100dc                __cxxabiv1::__terminate(void (*)())
  .text._ZSt9terminatev
-                0x08010120       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
-                0x08010120                std::terminate()
+                0x080100ec       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x080100ec                std::terminate()
  .text._ZN10__cxxabiv112__unexpectedEPFvvE
-                0x08010134        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
-                0x08010134                __cxxabiv1::__unexpected(void (*)())
+                0x08010100        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x08010100                __cxxabiv1::__unexpected(void (*)())
  .text._ZSt10unexpectedv
-                0x0801013c       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
-                0x0801013c                std::unexpected()
+                0x08010108       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x08010108                std::unexpected()
  .text._ZSt13get_terminatev
-                0x08010150       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
-                0x08010150                std::get_terminate()
+                0x0801011c       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x0801011c                std::get_terminate()
  .text._ZSt14get_unexpectedv
-                0x08010160       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
-                0x08010160                std::get_unexpected()
+                0x0801012c       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x0801012c                std::get_unexpected()
  .text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP21_Unwind_Control_Block
-                0x08010170       0x44 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
+                0x0801013c       0x44 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
  .text.__cxa_init_primary_exception
-                0x080101b4       0x44 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
-                0x080101b4                __cxa_init_primary_exception
+                0x08010180       0x44 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
+                0x08010180                __cxa_init_primary_exception
  .text.__cxa_throw
-                0x080101f8       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
-                0x080101f8                __cxa_throw
+                0x080101c4       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
+                0x080101c4                __cxa_throw
  .text.__cxa_rethrow
-                0x0801022c       0x70 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
-                0x0801022c                __cxa_rethrow
- .text._ZdlPv   0x0801029c        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(del_op.o)
-                0x0801029c                operator delete(void*)
+                0x080101f8       0x70 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
+                0x080101f8                __cxa_rethrow
+ .text._ZdlPv   0x08010268        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(del_op.o)
+                0x08010268                operator delete(void*)
  .text.__cxa_begin_catch
-                0x080102a0       0x7c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
-                0x080102a0                __cxa_begin_catch
+                0x0801026c       0x7c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
+                0x0801026c                __cxa_begin_catch
  .text.__cxa_end_catch
-                0x0801031c       0x8c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
-                0x0801031c                __cxa_end_catch
+                0x080102e8       0x8c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
+                0x080102e8                __cxa_end_catch
  .text.__cxa_get_globals_fast
-                0x080103a8        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_globals.o)
-                0x080103a8                __cxa_get_globals_fast
+                0x08010374        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_globals.o)
+                0x08010374                __cxa_get_globals_fast
  .text.__cxa_get_globals
-                0x080103b0        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_globals.o)
-                0x080103b0                __cxa_get_globals
+                0x0801037c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_globals.o)
+                0x0801037c                __cxa_get_globals
  .text._ZL28read_encoded_value_with_basehjPKhPj
-                0x080103b8       0xc0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x08010384       0xc0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
  .text._ZL21base_of_encoded_valuehP15_Unwind_Context
-                0x08010478       0x44 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x08010444       0x44 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
  .text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
-                0x080104bc       0x90 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x08010488       0x90 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
  .text.__gxx_personality_v0
-                0x0801054c      0x440 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
-                0x0801054c                __gxx_personality_v0
+                0x08010518      0x440 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x08010518                __gxx_personality_v0
  .text.__cxa_end_cleanup
-                0x0801098c        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
-                0x0801098c                __cxa_end_cleanup
+                0x08010958        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
+                0x08010958                __cxa_end_cleanup
  .text.__cxa_type_match
-                0x08010998       0xb0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
-                0x08010998                __cxa_type_match
+                0x08010964       0xb0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
+                0x08010964                __cxa_type_match
  .text.__cxa_begin_cleanup
-                0x08010a48       0x64 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
-                0x08010a48                __cxa_begin_cleanup
+                0x08010a14       0x64 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
+                0x08010a14                __cxa_begin_cleanup
  .text.__gnu_end_cleanup
-                0x08010aac       0x70 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
-                0x08010aac                __gnu_end_cleanup
+                0x08010a78       0x70 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
+                0x08010a78                __gnu_end_cleanup
  .text._ZN10__cxxabiv1L24__is_gxx_exception_classEPc
-                0x08010b1c       0x3c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
+                0x08010ae8       0x3c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
  .text.__cxa_call_terminate
-                0x08010b58       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
-                0x08010b58                __cxa_call_terminate
+                0x08010b24       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
+                0x08010b24                __cxa_call_terminate
  .text.unlikely.__cxa_call_unexpected
-                0x08010b78       0xd4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
-                0x08010b78                __cxa_call_unexpected
+                0x08010b44       0xd4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
+                0x08010b44                __cxa_call_unexpected
  .text.unlikely
-                0x08010c4c        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(pr-support.o)
-                0x08010c4c                _Unwind_GetDataRelBase
-                0x08010c52                _Unwind_GetTextRelBase
- .text.startup  0x08010c58       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-__call_atexit.o)
+                0x08010c18        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(pr-support.o)
+                0x08010c18                _Unwind_GetDataRelBase
+                0x08010c1e                _Unwind_GetTextRelBase
+ .text.startup  0x08010c24       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-__call_atexit.o)
  *(.glue_7)
- .glue_7        0x08010c6c        0x0 linker stubs
+ .glue_7        0x08010c38        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08010c6c        0x0 linker stubs
+ .glue_7t       0x08010c38        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08010c6c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x08010c38        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08010c6c        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crti.o
-                0x08010c6c                _init
- .init          0x08010c70        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x08010c38        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crti.o
+                0x08010c38                _init
+ .init          0x08010c3c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08010c78        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crti.o
-                0x08010c78                _fini
- .fini          0x08010c7c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtn.o
-                0x08010c84                        . = ALIGN (0x4)
-                0x08010c84                        _etext = .
+ .fini          0x08010c44        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crti.o
+                0x08010c44                _fini
+ .fini          0x08010c48        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtn.o
+                0x08010c50                        . = ALIGN (0x4)
+                0x08010c50                        _etext = .
 
-.vfp11_veneer   0x08010c84        0x0
- .vfp11_veneer  0x08010c84        0x0 linker stubs
+.vfp11_veneer   0x08010c50        0x0
+ .vfp11_veneer  0x08010c50        0x0 linker stubs
 
-.v4_bx          0x08010c84        0x0
- .v4_bx         0x08010c84        0x0 linker stubs
+.v4_bx          0x08010c50        0x0
+ .v4_bx         0x08010c50        0x0 linker stubs
 
-.iplt           0x08010c84        0x0
- .iplt          0x08010c84        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x08010c50        0x0
+ .iplt          0x08010c50        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08010c88      0x7e4
-                0x08010c88                        . = ALIGN (0x4)
+.rodata         0x08010c50      0x7e4
+                0x08010c50                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08010c88       0x18 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj
- .rodata        0x08010ca0        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
- .rodata        0x08010ca8       0x22 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfscanf.o)
- *fill*         0x08010cca        0x2 
- .rodata        0x08010ccc      0x101 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-ctype_.o)
-                0x08010ccc                _ctype_
- *fill*         0x08010dcd        0x3 
- .rodata        0x08010dd0       0x22 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfiscanf.o)
- *fill*         0x08010df2        0x6 
- .rodata        0x08010df8       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-strtod.o)
- .rodata        0x08010e48       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfprintf.o)
- .rodata        0x08010e68      0x100 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-gdtoa-gethex.o)
-                0x08010e68                __hexdig
- .rodata        0x08010f68      0x128 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-mprec.o)
-                0x08010f78                __mprec_tens
-                0x08011040                __mprec_tinytens
-                0x08011068                __mprec_bigtens
- .rodata        0x08011090       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-vfiprintf.o)
+ .rodata        0x08010c50       0x18 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj
+ .rodata        0x08010c68        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
+ .rodata        0x08010c70       0x22 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfscanf.o)
+ *fill*         0x08010c92        0x2 
+ .rodata        0x08010c94      0x101 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-ctype_.o)
+                0x08010c94                _ctype_
+ *fill*         0x08010d95        0x3 
+ .rodata        0x08010d98       0x22 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfiscanf.o)
+ *fill*         0x08010dba        0x6 
+ .rodata        0x08010dc0       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-strtod.o)
+ .rodata        0x08010e10       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfprintf.o)
+ .rodata        0x08010e30      0x100 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-gdtoa-gethex.o)
+                0x08010e30                __hexdig
+ .rodata        0x08010f30      0x128 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-mprec.o)
+                0x08010f40                __mprec_tens
+                0x08011008                __mprec_tinytens
+                0x08011030                __mprec_bigtens
+ .rodata        0x08011058       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-vfiprintf.o)
  *(.rodata*)
  .rodata.Jetson2Servo.str1.4
-                0x080110b0      0x1e1 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
+                0x08011078      0x1e1 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
                                  0x1d (size before relaxing)
- *fill*         0x08011291        0x3 
+ *fill*         0x08011259        0x3 
  .rodata.APBPrescTable
-                0x08011294        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08011294                APBPrescTable
+                0x0801125c        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x0801125c                APBPrescTable
  .rodata.AHBPrescTable
-                0x0801129c       0x10 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x0801129c                AHBPrescTable
+                0x08011264       0x10 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08011264                AHBPrescTable
  .rodata.flagBitshiftOffset.0
-                0x080112ac        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x08011274        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .rodata._ZTSN9__gnu_cxx20recursive_init_errorE
-                0x080112b4       0x23 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
-                0x080112b4                typeinfo name for __gnu_cxx::recursive_init_error
- *fill*         0x080112d7        0x1 
+                0x0801127c       0x23 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
+                0x0801127c                typeinfo name for __gnu_cxx::recursive_init_error
+ *fill*         0x0801129f        0x1 
  .rodata._ZTIN9__gnu_cxx20recursive_init_errorE
-                0x080112d8        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
-                0x080112d8                typeinfo for __gnu_cxx::recursive_init_error
+                0x080112a0        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
+                0x080112a0                typeinfo for __gnu_cxx::recursive_init_error
  .rodata._ZTVN9__gnu_cxx20recursive_init_errorE
-                0x080112e4       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
-                0x080112e4                vtable for __gnu_cxx::recursive_init_error
+                0x080112ac       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
+                0x080112ac                vtable for __gnu_cxx::recursive_init_error
  .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
-                0x080112f8       0x25 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
-                0x080112f8                typeinfo name for __cxxabiv1::__si_class_type_info
- *fill*         0x0801131d        0x3 
+                0x080112c0       0x25 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x080112c0                typeinfo name for __cxxabiv1::__si_class_type_info
+ *fill*         0x080112e5        0x3 
  .rodata._ZTIN10__cxxabiv120__si_class_type_infoE
-                0x08011320        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
-                0x08011320                typeinfo for __cxxabiv1::__si_class_type_info
+                0x080112e8        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x080112e8                typeinfo for __cxxabiv1::__si_class_type_info
  .rodata._ZTVN10__cxxabiv120__si_class_type_infoE
-                0x0801132c       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
-                0x0801132c                vtable for __cxxabiv1::__si_class_type_info
+                0x080112f4       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x080112f4                vtable for __cxxabiv1::__si_class_type_info
  .rodata._ZTSSt9type_info
-                0x08011358        0xd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
-                0x08011358                typeinfo name for std::type_info
- *fill*         0x08011365        0x3 
+                0x08011320        0xd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
+                0x08011320                typeinfo name for std::type_info
+ *fill*         0x0801132d        0x3 
  .rodata._ZTISt9type_info
-                0x08011368        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
-                0x08011368                typeinfo for std::type_info
+                0x08011330        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
+                0x08011330                typeinfo for std::type_info
  .rodata._ZTSN10__cxxabiv117__class_type_infoE
-                0x08011370       0x22 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x08011370                typeinfo name for __cxxabiv1::__class_type_info
- *fill*         0x08011392        0x2 
+                0x08011338       0x22 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x08011338                typeinfo name for __cxxabiv1::__class_type_info
+ *fill*         0x0801135a        0x2 
  .rodata._ZTIN10__cxxabiv117__class_type_infoE
-                0x08011394        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x08011394                typeinfo for __cxxabiv1::__class_type_info
+                0x0801135c        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x0801135c                typeinfo for __cxxabiv1::__class_type_info
  .rodata._ZTVN10__cxxabiv117__class_type_infoE
-                0x080113a0       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
-                0x080113a0                vtable for __cxxabiv1::__class_type_info
+                0x08011368       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x08011368                vtable for __cxxabiv1::__class_type_info
  .rodata._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv.str1.4
-                0x080113cc       0x3c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x08011394       0x3c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
  .rodata._ZNKSt9exception4whatEv.str1.4
-                0x080113cc        0xf /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011394        0xf /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
  .rodata._ZNKSt13bad_exception4whatEv.str1.4
-                0x080113cc       0x13 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011394       0x13 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
  .rodata._ZTSSt9exception
-                0x080113cc        0xd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x080113cc                typeinfo name for std::exception
- *fill*         0x080113d9        0x3 
+                0x08011394        0xd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011394                typeinfo name for std::exception
+ *fill*         0x080113a1        0x3 
  .rodata._ZTISt9exception
-                0x080113dc        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x080113dc                typeinfo for std::exception
+                0x080113a4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080113a4                typeinfo for std::exception
  .rodata._ZTSSt13bad_exception
-                0x080113e4       0x12 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x080113e4                typeinfo name for std::bad_exception
- *fill*         0x080113f6        0x2 
+                0x080113ac       0x12 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080113ac                typeinfo name for std::bad_exception
+ *fill*         0x080113be        0x2 
  .rodata._ZTISt13bad_exception
-                0x080113f8        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x080113f8                typeinfo for std::bad_exception
+                0x080113c0        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080113c0                typeinfo for std::bad_exception
  .rodata._ZTSN10__cxxabiv115__forced_unwindE
-                0x08011404       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x08011404                typeinfo name for __cxxabiv1::__forced_unwind
+                0x080113cc       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080113cc                typeinfo name for __cxxabiv1::__forced_unwind
  .rodata._ZTIN10__cxxabiv115__forced_unwindE
-                0x08011424        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x08011424                typeinfo for __cxxabiv1::__forced_unwind
+                0x080113ec        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080113ec                typeinfo for __cxxabiv1::__forced_unwind
  .rodata._ZTSN10__cxxabiv119__foreign_exceptionE
-                0x0801142c       0x24 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x0801142c                typeinfo name for __cxxabiv1::__foreign_exception
+                0x080113f4       0x24 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x080113f4                typeinfo name for __cxxabiv1::__foreign_exception
  .rodata._ZTIN10__cxxabiv119__foreign_exceptionE
-                0x08011450        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x08011450                typeinfo for __cxxabiv1::__foreign_exception
+                0x08011418        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011418                typeinfo for __cxxabiv1::__foreign_exception
  .rodata._ZTVSt13bad_exception
-                0x08011458       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
-                0x08011458                vtable for std::bad_exception
+                0x08011420       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011420                vtable for std::bad_exception
  .rodata.str1.4
-                0x0801146c        0x9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfscanf.o)
+                0x08011434        0x9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfscanf.o)
  .rodata.str1.4
-                0x0801146c        0x1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-mbrtowc.o)
+                0x08011434        0x1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-mbrtowc.o)
  .rodata.str1.4
-                0x0801146c        0x2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-puts.o)
+                0x08011434        0x2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-puts.o)
  .rodata.str1.4
-                0x0801146c       0x15 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-strtod.o)
+                0x08011434       0x15 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-strtod.o)
  .rodata.str1.4
-                0x0801146c       0x12 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-locale.o)
+                0x08011434       0x12 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-locale.o)
  .rodata.str1.4
-                0x0801146c       0x42 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfprintf.o)
+                0x08011434       0x42 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-svfprintf.o)
  .rodata.str1.4
-                0x0801146c       0x4c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-gdtoa-gethex.o)
+                0x08011434       0x4c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-gdtoa-gethex.o)
  .rodata.str1.4
-                0x0801146c       0x54 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-dtoa.o)
+                0x08011434       0x54 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-dtoa.o)
  .rodata.str1.4
-                0x0801146c       0x43 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-assert.o)
+                0x08011434       0x43 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-assert.o)
  .rodata.str1.4
-                0x0801146c       0x41 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-mprec.o)
+                0x08011434       0x41 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-mprec.o)
  .rodata.str1.4
-                0x0801146c       0x2f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-vfiprintf.o)
-                0x080114c0                        . = ALIGN (0x4)
+                0x08011434       0x2f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-vfiprintf.o)
+                0x08011488                        . = ALIGN (0x4)
 
-.ARM.extab      0x0801146c       0xb8
-                0x0801146c                        . = ALIGN (0x4)
+.ARM.extab      0x08011434       0xb8
+                0x08011434                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
  .ARM.extab.text.setup
-                0x0801146c        0xc CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj
+                0x08011434        0xc CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj
  .ARM.extab.text._ZN10__cxxabiv111__terminateEPFvvE
-                0x08011478       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x08011440       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
  .ARM.extab.text._ZN10__cxxabiv112__unexpectedEPFvvE
-                0x08011494        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x0801145c        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
  .ARM.extab.text._ZSt10unexpectedv
-                0x080114a0        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x08011468        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
  .ARM.extab.text.__cxa_begin_catch
-                0x080114ac        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
+                0x08011474        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
  .ARM.extab.text._ZL21base_of_encoded_valuehP15_Unwind_Context
-                0x080114b8        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x08011480        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
  .ARM.extab.text.__gxx_personality_v0
-                0x080114c4       0x24 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x0801148c       0x24 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
  .ARM.extab.text.unlikely.__cxa_call_unexpected
-                0x080114e8       0x24 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
- .ARM.extab     0x0801150c       0x18 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(pr-support.o)
-                0x08011524                        . = ALIGN (0x4)
+                0x080114b0       0x24 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
+ .ARM.extab     0x080114d4       0x18 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(pr-support.o)
+                0x080114ec                        . = ALIGN (0x4)
 
-.ARM            0x08011524      0x1f0
-                0x08011524                        . = ALIGN (0x4)
-                0x08011524                        __exidx_start = .
+.ARM            0x080114ec      0x1f0
+                0x080114ec                        . = ALIGN (0x4)
+                0x080114ec                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08011524        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
- .ARM.exidx     0x0801152c       0x78 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(unwind-arm.o)
+ .ARM.exidx     0x080114ec        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x080114f4       0x78 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(unwind-arm.o)
                                  0xd8 (size before relaxing)
- .ARM.exidx     0x080115a4       0x38 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(pr-support.o)
- .ARM.exidx     0x080115dc        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-strcmp.o)
+ .ARM.exidx     0x0801156c       0x38 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(pr-support.o)
+ .ARM.exidx     0x080115a4        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-strcmp.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x080115dc        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-memcpy.o)
+ .ARM.exidx     0x080115a4        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-memcpy.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x080115dc        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-strlen.o)
+ .ARM.exidx     0x080115a4        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x080115dc        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-memchr.o)
+ .ARM.exidx     0x080115a4        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-memchr.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.velocity_PID
-                0x080115dc        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.obj
+                0x080115a4        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.obj
                                   0x8 (size before relaxing)
  .ARM.exidx.text.velocity_control
-                0x080115dc        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.obj
+                0x080115a4        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/PID.cpp.obj
                                   0x8 (size before relaxing)
  .ARM.exidx.text.setup
-                0x080115dc        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj
+                0x080115a4        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj
  .ARM.exidx.text.loop
-                0x080115e4        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj
+                0x080115ac        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/Setup_and_Loop.cpp.obj
  .ARM.exidx.text.Robot2Wheel
-                0x080115ec        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
+                0x080115b4        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
  .ARM.exidx.text.Wheel2Robot
-                0x080115f4        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
+                0x080115bc        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
                                   0x8 (size before relaxing)
  .ARM.exidx.text.Servo2PLus
-                0x080115f4        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
+                0x080115bc        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
                                   0x8 (size before relaxing)
  .ARM.exidx.text.GetLocation
-                0x080115f4        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
+                0x080115bc        0x0 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/condition.cpp.obj
                                   0x8 (size before relaxing)
  .ARM.exidx.text.encoder_init
-                0x080115f4        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj
+                0x080115bc        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj
  .ARM.exidx.text.Encoder2Wheel
-                0x080115fc        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj
+                0x080115c4        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/encoder.cpp.obj
  .ARM.exidx.text.jetson_init
-                0x08011604        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
+                0x080115cc        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
  .ARM.exidx.text.Jetson2Servo
-                0x0801160c       0x10 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
+                0x080115d4       0x10 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/jetson.cpp.obj
                                   0x8 (size before relaxing)
  .ARM.exidx.text.motors_init
-                0x0801161c        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj
+                0x080115e4        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj
  .ARM.exidx.text.motors_control
-                0x08011624        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj
+                0x080115ec        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/motor.cpp.obj
  .ARM.exidx.text.servo_init
-                0x0801162c        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/servo.cpp.obj
+                0x080115f4        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/servo.cpp.obj
  .ARM.exidx.text.servos_control
-                0x08011634        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/servo.cpp.obj
+                0x080115fc        0x8 CMakeFiles/OSTC_f4_4.elf.dir/Core/Src/servo.cpp.obj
  .ARM.exidx.text.__cxa_guard_acquire
-                0x0801163c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard.o)
+                0x08011604        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard.o)
  .ARM.exidx.text.__cxa_guard_release
-                0x08011644        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard.o)
+                0x0801160c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard.o)
  .ARM.exidx.text._ZN9__gnu_cxx20recursive_init_errorD2Ev
-                0x0801164c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
+                0x08011614        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN9__gnu_cxx20recursive_init_errorD0Ev
-                0x0801164c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
+                0x08011614        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN9__gnu_cxx20recursive_init_errorC2Ev
-                0x0801164c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
+                0x08011614        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(guard_error.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
-                0x0801164c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x08011614        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD0Ev
-                0x0801164c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x08011614        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
-                0x0801164c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x08011614        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
-                0x0801164c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x08011614        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
-                0x0801164c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
+                0x08011614        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(si_class_type_info.o)
  .ARM.exidx.text._ZNSt9type_infoD2Ev
-                0x08011654        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
+                0x0801161c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
  .ARM.exidx.text._ZNKSt9type_info14__is_pointer_pEv
-                0x0801165c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
+                0x08011624        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNKSt9type_infoeqERKS_
-                0x0801165c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
+                0x08011624        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(tinfo.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
-                0x0801165c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x08011624        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
-                0x08011664        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x0801162c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
  .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD2Ev
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD0Ev
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZdlPvj
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(del_ops.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(del_ops.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN12_GLOBAL__N_14pool4freeEPv.constprop.0
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN12_GLOBAL__N_14pool8allocateEj.constprop.0
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_allocate_exception
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_free_exception
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt9exceptionD2Ev
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt13bad_exceptionD2Ev
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNKSt9exception4whatEv
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNKSt13bad_exception4whatEv
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt13bad_exceptionD0Ev
-                0x0801166c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
+                0x08011634        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_exception.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN10__cxxabiv111__terminateEPFvvE
-                0x0801166c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x08011634        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
  .ARM.exidx.text._ZSt9terminatev
-                0x08011674        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x0801163c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
  .ARM.exidx.text._ZN10__cxxabiv112__unexpectedEPFvvE
-                0x0801167c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x08011644        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
  .ARM.exidx.text._ZSt10unexpectedv
-                0x08011684        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x0801164c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
  .ARM.exidx.text._ZSt13get_terminatev
-                0x0801168c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x08011654        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
  .ARM.exidx.text._ZSt14get_unexpectedv
-                0x08011694        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
+                0x0801165c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_terminate.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP21_Unwind_Control_Block
-                0x08011694        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
+                0x0801165c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
  .ARM.exidx.text.__cxa_init_primary_exception
-                0x0801169c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
+                0x08011664        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
  .ARM.exidx.text.__cxa_throw
-                0x080116a4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
+                0x0801166c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
  .ARM.exidx.text.__cxa_rethrow
-                0x080116ac        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
+                0x08011674        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_throw.o)
  .ARM.exidx.text._ZdlPv
-                0x080116b4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(del_op.o)
+                0x0801167c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(del_op.o)
  .ARM.exidx.text.__cxa_begin_catch
-                0x080116bc        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
+                0x08011684        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
  .ARM.exidx.text.__cxa_end_catch
-                0x080116c4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
+                0x0801168c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_catch.o)
  .ARM.exidx.text.__cxa_get_globals_fast
-                0x080116cc        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_globals.o)
+                0x08011694        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_globals.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_get_globals
-                0x080116cc        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_globals.o)
+                0x08011694        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_globals.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZL28read_encoded_value_with_basehjPKhPj
-                0x080116cc        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x08011694        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
  .ARM.exidx.text._ZL21base_of_encoded_valuehP15_Unwind_Context
-                0x080116d4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x0801169c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
  .ARM.exidx.text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
-                0x080116dc        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x080116a4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
  .ARM.exidx.text.__gxx_personality_v0
-                0x080116e4       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
+                0x080116ac       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_personality.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_type_match
-                0x080116f4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
+                0x080116bc        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
  .ARM.exidx.text.__cxa_begin_cleanup
-                0x080116fc        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
+                0x080116c4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
  .ARM.exidx.text.__gnu_end_cleanup
-                0x08011704        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
+                0x080116cc        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN10__cxxabiv1L24__is_gxx_exception_classEPc
-                0x08011704        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
+                0x080116cc        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_call_terminate
-                0x08011704        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
+                0x080116cc        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.unlikely.__cxa_call_unexpected
-                0x08011704        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
+                0x080116cc        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_call.o)
  .ARM.exidx.text.unlikely
-                0x0801170c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(pr-support.o)
+                0x080116d4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a(pr-support.o)
                                  0x10 (size before relaxing)
-                0x08011714                        __exidx_end = .
-                0x08011714                        . = ALIGN (0x4)
+                0x080116dc                        __exidx_end = .
+                0x080116dc                        . = ALIGN (0x4)
 
-.preinit_array  0x08011714        0x0
-                0x08011714                        . = ALIGN (0x4)
-                0x08011714                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080116dc        0x0
+                0x080116dc                        . = ALIGN (0x4)
+                0x080116dc                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08011714                        PROVIDE (__preinit_array_end = .)
-                0x08011714                        . = ALIGN (0x4)
+                0x080116dc                        PROVIDE (__preinit_array_end = .)
+                0x080116dc                        . = ALIGN (0x4)
 
-.init_array     0x08011714        0xc
-                0x08011714                        . = ALIGN (0x4)
-                0x08011714                        PROVIDE (__init_array_start = .)
+.init_array     0x080116dc        0xc
+                0x080116dc                        . = ALIGN (0x4)
+                0x080116dc                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08011714        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-__call_atexit.o)
+                0x080116dc        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08011718        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
- .init_array    0x0801171c        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
-                0x08011720                        PROVIDE (__init_array_end = .)
-                0x08011720                        . = ALIGN (0x4)
+ .init_array    0x080116e0        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .init_array    0x080116e4        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++.a(eh_alloc.o)
+                0x080116e8                        PROVIDE (__init_array_end = .)
+                0x080116e8                        . = ALIGN (0x4)
 
-.fini_array     0x08011720        0x4
-                0x08011720                        . = ALIGN (0x4)
-                0x08011720                        PROVIDE (__fini_array_start = .)
+.fini_array     0x080116e8        0x4
+                0x080116e8                        . = ALIGN (0x4)
+                0x080116e8                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08011720        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08011724                        PROVIDE (__fini_array_end = .)
-                0x08011724                        . = ALIGN (0x4)
-                0x08011724                        _sidata = LOADADDR (.data)
+ .fini_array    0x080116e8        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x080116ec                        PROVIDE (__fini_array_end = .)
+                0x080116ec                        . = ALIGN (0x4)
+                0x080116ec                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08011724        0x0
- .rel.iplt      0x08011724        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x080116ec        0x0
+ .rel.iplt      0x080116ec        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.data           0x20000000      0x6e8 load address 0x08011724
+.data           0x20000000      0x6e8 load address 0x080116ec
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3201,19 +3201,19 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtn.o
  *(.RamFunc*)
                 0x200006e8                        . = ALIGN (0x4)
                 0x200006e8                        _edata = .
-                0x08011e0c                        _siccmram = LOADADDR (.ccmram)
+                0x08011dd4                        _siccmram = LOADADDR (.ccmram)
 
 .tm_clone_table
-                0x200006e8        0x0 load address 0x08011e0c
+                0x200006e8        0x0 load address 0x08011dd4
  .tm_clone_table
                 0x200006e8        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
  .tm_clone_table
                 0x200006e8        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtend.o
 
-.igot.plt       0x200006e8        0x0 load address 0x08011e0c
+.igot.plt       0x200006e8        0x0 load address 0x08011dd4
  .igot.plt      0x200006e8        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x08011e0c
+.ccmram         0x10000000        0x0 load address 0x08011dd4
                 0x10000000                        . = ALIGN (0x4)
                 0x10000000                        _sccmram = .
  *(.ccmram)
