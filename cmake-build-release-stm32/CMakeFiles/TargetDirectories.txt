@@ -1,0 +1,3 @@
+/home/yzy-pro/OSTC/OSTC_f4_4/cmake-build-release-stm32/CMakeFiles/OSTC_f4_4.elf.dir
+/home/yzy-pro/OSTC/OSTC_f4_4/cmake-build-release-stm32/CMakeFiles/edit_cache.dir
+/home/yzy-pro/OSTC/OSTC_f4_4/cmake-build-release-stm32/CMakeFiles/rebuild_cache.dir
