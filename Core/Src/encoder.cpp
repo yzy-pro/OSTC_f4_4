@@ -21,19 +21,19 @@ int Encoder_GetCounter (const int name)
     int counter{};
     if (name == 'A')
     {
-        counter = __HAL_TIM_GetCounter(&A_ENCODER_TIM);
+        counter = (int8_t)__HAL_TIM_GetCounter(&A_ENCODER_TIM);
     }
     else if (name == 'B')
     {
-        counter = __HAL_TIM_GetCounter(&B_ENCODER_TIM);
+        counter = (int8_t)__HAL_TIM_GetCounter(&B_ENCODER_TIM);
     }
     else if (name == 'C')
     {
-        counter = __HAL_TIM_GetCounter(&C_ENCODER_TIM);
+        counter = (int8_t)__HAL_TIM_GetCounter(&C_ENCODER_TIM);
     }
     else if (name == 'D')
     {
-        counter = __HAL_TIM_GetCounter(&D_ENCODER_TIM);
+        counter = (int8_t)__HAL_TIM_GetCounter(&D_ENCODER_TIM);
     }
 
     return counter;
