@@ -1,5 +1,7 @@
 #ifndef SETUP_AND_LOOP_H
 #define SETUP_AND_LOOP_H
+//把控制主程序封装了一下，主要是因为用cubemx生成代码容易在main文件里面出现奇怪的问题
+//控制的其他部分参看stm32f4xx_it.h文件中的中断控制
 #ifdef __cplusplus
 extern "C"{
 #endif

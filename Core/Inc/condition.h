@@ -1,5 +1,6 @@
 #ifndef EXCHANGE_DEFINE_H
 #define EXCHANGE_DEFINE_H
+//这个文件主要包括各种量的换算和计算
 #ifdef  __cplusplus
 extern "C"{
 #endif

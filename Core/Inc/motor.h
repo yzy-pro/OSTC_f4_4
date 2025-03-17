@@ -1,6 +1,6 @@
 #ifndef MOTOR_H
 #define MOTOR_H
-
+//电机控制
 #ifdef __cplusplus
 extern "C" {
 #endif

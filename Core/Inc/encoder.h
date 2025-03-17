@@ -1,6 +1,6 @@
 #ifndef ENCODER_H
 #define ENCODER_H
-
+//编码器控制
 #ifdef __cplusplus
 extern "C" {
 #endif

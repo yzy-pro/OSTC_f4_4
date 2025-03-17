@@ -1,5 +1,6 @@
 #ifndef SERVO_H
 #define SERVO_H
+//舵机控制
 #ifdef __cplusplus
 extern "C" {
 #endif

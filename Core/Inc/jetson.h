@@ -1,5 +1,6 @@
 #ifndef JETSON_H
 #define JETSON_H
+//jetson通信
 #ifdef __cplusplus
 extern "C" {
 #endif

@@ -1,6 +1,6 @@
 #ifndef PID_H
 #define PID_H
-
+//PID算法
 #ifdef __cplusplus
 extern "C" {
 #endif
