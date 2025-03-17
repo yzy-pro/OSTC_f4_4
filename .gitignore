@@ -1,5 +1,5 @@
-/cmake-build-debug/
-/cmake-build-release-stm32/
+/cmake-build-debug/*
+/cmake-build-release-stm32/*
 !cmake-build-release-stm32/OSTC_f4_4.hex
 CMakeLists.txt
 CMakeLists_template.txt
