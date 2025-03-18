@@ -3,7 +3,7 @@
 !cmake-build-release-stm32/OSTC_f4_4.bin
 !cmake-build-release-stm32/OSTC_f4_4.elf
 !cmake-build-release-stm32/OSTC_f4_4.hex
-!cmmake-build-release-stm32/OSTC_f4_4.map
+!cmake-build-release-stm32/OSTC_f4_4.map
 CMakeLists.txt
 CMakeLists_template.txt
 /.idea
