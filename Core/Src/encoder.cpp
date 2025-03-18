@@ -14,6 +14,8 @@ void encoder_init()
     __HAL_TIM_SetCounter(&B_ENCODER_TIM, 0);
     __HAL_TIM_SetCounter(&C_ENCODER_TIM, 0);
     __HAL_TIM_SetCounter(&D_ENCODER_TIM, 0);
+
+    HAL_TIM_Base_Start_IT(&ENCODER_TIM);
 }
 
 int Encoder_GetCounter (const int name)

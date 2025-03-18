@@ -4,13 +4,12 @@
 #include "motor.h"
 #include "jetson.h"
 #include "servo.h"
+#include "stm32f4xx_it.h"
 
-extern volatile uint8_t tim7_call;
-extern volatile uint8_t dma2_call;
 
 RobotCondition getsettings()
 {
-    return {50,50,50};
+    return {5,5,0};
 }
 
 void setup()

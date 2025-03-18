@@ -14,6 +14,7 @@ uint8_t * jetson_init()
         JETSON_RX_BUFFER = (uint8_t*)malloc(RX_BUFFER_SIZE * sizeof
     (uint8_t));
         HAL_UART_Receive_DMA(&huart1, JETSON_RX_BUFFER, RX_BUFFER_SIZE);
+        HAL_NVIC_EnableIRQ(JETSON_DMA_IRQn);
         is_init = true;
     }
     return JETSON_RX_BUFFER;

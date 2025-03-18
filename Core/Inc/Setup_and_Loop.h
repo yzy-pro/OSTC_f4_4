@@ -27,8 +27,11 @@ extern "C"{
 #define D_MOTOR_CHANNEL_FI TIM_CHANNEL_1
 #define D_ENCODER_TIM htim3
 
+#define ENCODER_TIM htim7
 
 #define JETSON_HUART huart1
+
+#define JETSON_DMA_IRQn DMA2_Stream0_IRQn
 
 #define SERVO_TIM htim3
 #define SERVO_PITCH_CHANNEL TIM_CHANNEL_3

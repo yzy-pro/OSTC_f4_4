@@ -5,10 +5,10 @@
 double velocity_PID(const double target, double current)
 {
     static PID_k velocity_PID = {
-        .kp = 100,
-        .ki = 0.02 * velocity_PID.kp,
+        .kp = 450,
+        .ki = 0.015 * velocity_PID.kp,
         .kd = 0,
-        .error_limit = 50,
+        .error_limit = 1500,
     };//@@@
 
     static double last_current{}, filter_parameters = 0.3; //@@@
