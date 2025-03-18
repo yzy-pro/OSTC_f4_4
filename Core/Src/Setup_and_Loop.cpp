@@ -14,22 +14,22 @@ RobotCondition getsettings()
 
 void setup()
 {
-    motors_init();
-    encoder_init();
+    // motors_init();
+    // encoder_init();
     servo_init();
     jetson_init();
 }
 
 void loop()
 {
-    if (tim7_call)//tim7是一个10ms触发的计时器
-    {
-        const WheelCondition target = Robot2Wheel(getsettings());
-        const WheelCondition current = Encoder2Wheel();
-        motors_control(velocity_control(target, current));
-        Location location = GetLocation(Wheel2Robot(current));
-        tim7_call = 0;
-    }
+    // if (tim7_call)//tim7是一个10ms触发的计时器
+    // {
+    //     const WheelCondition target = Robot2Wheel(getsettings());
+    //     const WheelCondition current = Encoder2Wheel();
+    //     motors_control(velocity_control(target, current));
+    //     Location location = GetLocation(Wheel2Robot(current));
+    //     tim7_call = 0;
+    // }
 
     if (dma2_call)//dma2上有jetson的通信
     {
