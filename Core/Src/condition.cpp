@@ -60,12 +60,24 @@ Location GetLocation(const RobotCondition Robot)
 {
     static Location location=
     {
-        .x=0,
-        .y=0,
+        .x = 0,
+        .y = 0,
+        .theta = 0,
     };
-
-    location.x += Robot.X_velocity * PID_period * 1e3;
-    location.y += Robot.Y_velocity * PID_period * 1e3;
+    location.theta += Robot.Omega_velocity * PID_period * 1e3;
+    while (location.theta > 360 || location.theta <= -360)
+    {
+        if (location.theta > 360)
+        {
+            location.theta -= 360;
+        }
+        else if (location.theta <= -360)
+        {
+            location.theta += 360;
+        }
+    }
+    location.x += Robot.X_velocity * PID_period * 1e3 * cos(location.theta);
+    location.y += Robot.Y_velocity * PID_period * 1e3 * sin(location.theta);
 
     return location;
 }

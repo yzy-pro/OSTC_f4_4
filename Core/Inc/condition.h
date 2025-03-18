@@ -62,6 +62,7 @@ typedef struct
 {
     double x;
     double y;
+    double theta;
 }Location;
 
 Polar_RobotCondition Cartesian2Polar(const RobotCondition Cartesian);
