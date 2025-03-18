@@ -13,7 +13,7 @@ uint8_t * jetson_init()
     {
         JETSON_RX_BUFFER = (uint8_t*)malloc(RX_BUFFER_SIZE * sizeof
     (uint8_t));
-        HAL_UART_Receive_DMA(&huart1, JETSON_RX_BUFFER, RX_BUFFER_SIZE);
+        HAL_UART_Receive_DMA(&JETSON_HUART, JETSON_RX_BUFFER, RX_BUFFER_SIZE);
         HAL_NVIC_EnableIRQ(JETSON_DMA_IRQn);
         is_init = true;
     }
@@ -22,55 +22,45 @@ uint8_t * jetson_init()
 
 Servos Jetson2Servo(const uint8_t* jetson_data)
 {
-    Servos servo;
-    if (sscanf((char*)jetson_data, "<%d,%d", &servo.pitch, &servo.yaw) == 2)
-    {
-        //printf("Received Pan: %d, Tilt: %d\n", servo.pitch, servo.yaw);
+    Servos servo = {90, 135};  // Default values
+    const char* ptr = (const char*)jetson_data;
+
+    // Find opening '<'
+    while (*ptr && *ptr != '<') ptr++;
+    if (*ptr++ != '<') {
+        printf("Invalid data format!\n");
         return servo;
     }
-    else
-    {
+
+    // Parse pitch value
+    char* endptr;
+    servo.pitch = (int)strtol(ptr, &endptr, 10);
+    if (endptr == ptr || *endptr != ',') {
         printf("Invalid data format!\n");
-        return {90, 135};
+        return servo;
     }
-    // Servos servo = {90, 135};
+
+    // Parse yaw value
+    ptr = endptr + 1;
+    servo.yaw = (int)strtol(ptr, &endptr, 10);
+    if (endptr == ptr) {
+        printf("Invalid data format!\n");
+        return servo;
+    }
+
+    return servo;
+
+    // Servos servo = {90, 135};  // Default values
     //
-    // const uint8_t* ptr = jetson_data;
+    // // 使用 sscanf 解析数据
+    // int result = sscanf((const char*)jetson_data, "<%d,%d", &servo.pitch, &servo.yaw);
     //
-    // while (*ptr && *ptr != '<')
-    // {
-    //     ptr++;
-    // }
-    //
-    // if (*ptr == '<') {
-    //     ptr++;
-    //
-    //     char* endptr;
-    //     servo.pitch = (int)strtol((char*)ptr, &endptr, 10);
-    //     ptr = (const uint8_t*)endptr;
-    //
-    //     if (*ptr == ',') {
-    //         ptr++;
-    //
-    //         servo.yaw = (int)strtol((char*)ptr, &endptr, 10);
-    //         ptr = (const uint8_t*)endptr;
-    //     }
-    //     else {
-    //         printf("Invalid data format: missing ','\n");
-    //         return servo;
-    //     }
-    //
-    //     if (*ptr == '\n') {
-    //         return servo;
-    //     }
-    //     else {
-    //         printf("Invalid data format: missing newline '\\n'\n");
-    //         return servo;
-    //     }
-    // }
-    // else {
-    //     printf("Invalid data format: missing '<'\n");
+    // if (result != 2) {
+    //     printf("Invalid data format!\n");
     //     return servo;
     // }
+    //
+    // return servo;
+
 }
 

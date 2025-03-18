@@ -14,8 +14,8 @@ RobotCondition getsettings()
 
 void setup()
 {
-    // motors_init();
-    // encoder_init();
+    motors_init();
+    encoder_init();
     servo_init();
     jetson_init();
 }

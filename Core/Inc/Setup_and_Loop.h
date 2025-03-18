@@ -33,7 +33,7 @@ extern "C"{
 
 #define JETSON_DMA_IRQn DMA2_Stream0_IRQn
 
-#define SERVO_TIM htim3
+#define SERVO_TIM htim8
 #define SERVO_PITCH_CHANNEL TIM_CHANNEL_3
 #define SERVO_YAW_CHANNEL TIM_CHANNEL_4
 
