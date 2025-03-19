@@ -17,7 +17,7 @@ Robot * robot_init() {
         //jetson
 
         //servo
-        myrobot.servo_traget={0, 0};
+        myrobot.servo_traget={90, 135};
         myrobot.servo_current={0,0};
         myrobot.servos_target_plus={0,0};
         myrobot.servos_current_plus={0,0};
