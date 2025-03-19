@@ -13,7 +13,6 @@ void motors_init()
     HAL_TIM_PWM_Start(&D_MOTOR_TIM_FI, D_MOTOR_CHANNEL_FI);
     HAL_TIM_PWM_Start(&D_MOTOR_TIM_BI, D_MOTOR_CHANNEL_BI);
 
-    motors_control({0, 0, 0, 0});
 }
 
 void motor_control(const int name, int pwm_velocity)
@@ -116,10 +115,10 @@ void motor_control(const int name, int pwm_velocity)
     }
 }
 
-void motors_control(const WheelCondition pwm_velocity)
+void motors_control(WheelCondition * pwm_velocity)
 {
-    motor_control('A', static_cast<int>(pwm_velocity.A_velocity));
-    motor_control('B', static_cast<int>(pwm_velocity.B_velocity));
-    motor_control('C', static_cast<int>(pwm_velocity.C_velocity));
-    motor_control('D', static_cast<int>(pwm_velocity.D_velocity));
+    motor_control('A', static_cast<int>(pwm_velocity->A_velocity));
+    motor_control('B', static_cast<int>(pwm_velocity->B_velocity));
+    motor_control('C', static_cast<int>(pwm_velocity->C_velocity));
+    motor_control('D', static_cast<int>(pwm_velocity->D_velocity));
 }

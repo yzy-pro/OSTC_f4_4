@@ -10,77 +10,63 @@ static inline double rad2deg(const double x)
     return x * 180.0 / M_PI;
 }
 
-Polar_RobotCondition Cartesian2Polar(const RobotCondition Cartesian)
+void Cartesian2Polar(const RobotCondition * Cartesian,
+    Polar_RobotCondition * Polar)
 {
-    return {0,0,0};//@@@
+    Polar->Rho_velocity = sqrt(Cartesian->X_velocity * Cartesian->X_velocity + Cartesian->Y_velocity * Cartesian->Y_velocity);
+    Polar->Theta_velocity = rad2deg(atan2(Cartesian->Y_velocity, Cartesian->X_velocity));
+    Polar->Omega_velocity = Cartesian->Omega_velocity;
 }
 
-RobotCondition Polar2Cartesian(const Polar_RobotCondition Polar)
-{
-    const double Theta = deg2rad(Polar.Theta_velocity);
 
-    const RobotCondition Cartesian = {
-        .X_velocity = Polar.Rho_velocity * cos(Theta),
-        .Y_velocity = Polar.Rho_velocity * sin(Theta),
-        .Omega_velocity = Polar.Omega_velocity
-    };
-    return Cartesian;
+void Polar2Cartesian(const Polar_RobotCondition * Polar,
+        RobotCondition * Cartesian){
+    const double Theta = deg2rad(Polar->Theta_velocity);
+
+    Cartesian->X_velocity = Polar->Rho_velocity * cos(Theta);
+    Cartesian->Y_velocity = Polar->Rho_velocity * sin(Theta);
+    Cartesian->Omega_velocity = Polar->Omega_velocity;
 }
 
-WheelCondition Robot2Wheel(const RobotCondition Robot)
+void Robot2Wheel(const RobotCondition* Robot, WheelCondition* Wheel)
 {
-    const WheelCondition Wheel = {
-        .A_velocity = +sqrt2 * Robot.X_velocity + +sqrt2 * Robot.Y_velocity + Robot.Omega_velocity * R_of_robot,
-        .B_velocity = -sqrt2 * Robot.X_velocity + +sqrt2 * Robot.Y_velocity + Robot.Omega_velocity * R_of_robot,
-        .C_velocity = -sqrt2 * Robot.X_velocity + -sqrt2 * Robot.Y_velocity + Robot.Omega_velocity * R_of_robot,
-        .D_velocity = +sqrt2 * Robot.X_velocity + -sqrt2 * Robot.Y_velocity + Robot.Omega_velocity * R_of_robot,
-    };
-    return Wheel;
-}
-RobotCondition Wheel2Robot(const WheelCondition Wheel)
-{
-    const RobotCondition Robot = {
-        .X_velocity = (Wheel.A_velocity - Wheel.B_velocity - Wheel.C_velocity + Wheel.D_velocity) / (4 * sqrt2),
-        .Y_velocity = (Wheel.A_velocity + Wheel.B_velocity - Wheel.C_velocity - Wheel.D_velocity) / (4 * sqrt2),
-        .Omega_velocity = (Wheel.A_velocity + Wheel.B_velocity + Wheel.C_velocity + Wheel.D_velocity) / (4 * R_of_robot),
-    };
-    return Robot;
+    Wheel->A_velocity = +sqrt2 * Robot->X_velocity + +sqrt2 * Robot->Y_velocity + Robot->Omega_velocity * R_of_robot;
+    Wheel->B_velocity = -sqrt2 * Robot->X_velocity + +sqrt2 * Robot->Y_velocity + Robot->Omega_velocity * R_of_robot;
+    Wheel->C_velocity = -sqrt2 * Robot->X_velocity + -sqrt2 * Robot->Y_velocity + Robot->Omega_velocity * R_of_robot;
+    Wheel->D_velocity = +sqrt2 * Robot->X_velocity + -sqrt2 * Robot->Y_velocity + Robot->Omega_velocity * R_of_robot;
 }
 
-Servos Servo2PLus(const Servos Servo)
+void Wheel2Robot(const WheelCondition* Wheel, RobotCondition* Robot)
 {
-    Servos Plus = {
-        .pitch = 500 + (Servo.pitch * 2000) / 180,
-        .yaw = 500 + Servo.yaw * 8
-    };
-    return Plus;
+    Robot->X_velocity = (Wheel->A_velocity - Wheel->B_velocity - Wheel->C_velocity + Wheel->D_velocity) / (4 * sqrt2);
+    Robot->Y_velocity = (Wheel->A_velocity + Wheel->B_velocity - Wheel->C_velocity - Wheel->D_velocity) / (4 * sqrt2);
+    Robot->Omega_velocity = (Wheel->A_velocity + Wheel->B_velocity + Wheel->C_velocity + Wheel->D_velocity) / (4 * R_of_robot);
 }
 
-Location GetLocation(const RobotCondition Robot)
+void Servo2PLus(const Servos * Servo, Servos * Plus)
 {
-    static Location location=
+    Plus->pitch = 500 + (Servo->pitch * 2000) / 180;
+    Plus->yaw = 500 + Servo->yaw * 8;
+}
+void GetLocation(const RobotCondition * Robot, Location * Location)
+{
+
+    Location->theta += Robot->Omega_velocity * PID_period * 1e-3;
+
+    while (Location->theta > 360 || Location->theta <= -360)
     {
-        .x = 0,
-        .y = 0,
-        .theta = 0,
-    };
-    location.theta += Robot.Omega_velocity * PID_period * 1e3;
-
-    while (location.theta > 360 || location.theta <= -360)
-    {
-        if (location.theta > 360)
+        if (Location->theta > 360)
         {
-            location.theta -= 360;
+            Location->theta -= 360;
         }
-        else if (location.theta <= -360)
+        else if (Location->theta <= -360)
         {
-            location.theta += 360;
+            Location->theta += 360;
         }
     }
 
-    location.x += Robot.X_velocity * PID_period * 1e3 * cos(location.theta);
-    location.y += Robot.Y_velocity * PID_period * 1e3 * sin(location.theta);
-
-    return location;
+    double theta_rad = deg2rad(Location->theta);
+    Location->x += Robot->X_velocity * PID_period * 1e-3 * cos(theta_rad);
+    Location->y += Robot->Y_velocity * PID_period * 1e-3 * sin(theta_rad);
 }
 

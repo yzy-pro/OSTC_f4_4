@@ -1,5 +1,4 @@
 #include "PID.h"
-
 #include "condition.h"
 
 double velocity_PID(const double target, double current)
@@ -37,20 +36,13 @@ double velocity_PID(const double target, double current)
     return pwm_velocity;
 }
 
-WheelCondition velocity_control(const WheelCondition target,
-const WheelCondition current)
+void velocity_control(const WheelCondition * target,
+const WheelCondition * current, WheelCondition * target_pwm)
 {
 
-    const double pwm_A = velocity_PID(target.A_velocity, current.A_velocity);
-    const double pwm_B = velocity_PID(target.B_velocity, current.B_velocity);
-    const double pwm_C = velocity_PID(target.C_velocity, current.C_velocity);
-    const double pwm_D = velocity_PID(target.D_velocity, current.D_velocity);
+    target_pwm->A_velocity = velocity_PID(target->A_velocity, current->A_velocity);
+    target_pwm->B_velocity = velocity_PID(target->B_velocity, current->B_velocity);
+    target_pwm->C_velocity = velocity_PID(target->C_velocity, current->C_velocity);
+    target_pwm->D_velocity = velocity_PID(target->D_velocity, current->D_velocity);
 
-    const WheelCondition pwm_target = {
-    .A_velocity = pwm_A,
-    .B_velocity = pwm_B,
-    .C_velocity = pwm_C,
-    .D_velocity = pwm_D,};
-
-    return pwm_target;
 }

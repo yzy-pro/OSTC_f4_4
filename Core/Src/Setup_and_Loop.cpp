@@ -4,37 +4,66 @@
 #include "motor.h"
 #include "jetson.h"
 #include "servo.h"
-#include "stm32f4xx_it.h"
+#include "robot.h"
 
 
-RobotCondition getsettings()
+void getsettings(RobotCondition * Robot)
 {
-    return {5,5,0};
+    Robot->X_velocity = 4;
+    Robot->Y_velocity = 4;
+    Robot->Omega_velocity = 0;
 }
 
-void setup()
+void setup(Robot * myrobot)
 {
     motors_init();
+    motors_control(&myrobot->wheel_traget_pwm);
+
     encoder_init();
-    servo_init();
+
     jetson_init();
+
+    servo_init();
+    Servo2PLus(&myrobot->servo_traget, &myrobot->servos_target_plus);
+    servos_control(&myrobot->servos_target_plus);
+
 }
 
-void loop()
+void loop(Robot * myrobot)
 {
-    // if (tim7_call)//tim7是一个10ms触发的计时器
-    // {
-    //     const WheelCondition target = Robot2Wheel(getsettings());
-    //     const WheelCondition current = Encoder2Wheel();
-    //     motors_control(velocity_control(target, current));
-    //     Location location = GetLocation(Wheel2Robot(current));
-    //     tim7_call = 0;
-    // }
-
-    if (dma2_call)//dma2上有jetson的通信
+    if (myrobot->tim7_call)//tim7是一个10ms触发的计时器
     {
-        servos_control(Servo2PLus(Jetson2Servo(jetson_init())));
-        dma2_call = 0;
+        getsettings(&(myrobot->robot_traget));
+        Robot2Wheel(&(myrobot->robot_traget), &(myrobot->wheel_traget));
+        Encoder2Wheel(&(myrobot->wheel_current));
+        velocity_control(&(myrobot->wheel_traget),&(myrobot->wheel_current),&(myrobot->wheel_traget_pwm));
+        motors_control(&(myrobot->wheel_traget_pwm));
+
+        Wheel2Robot(&(myrobot->wheel_current), &(myrobot->robot_current));
+        GetLocation(&(myrobot->robot_current), &(myrobot->location));
+
+        reset_calls(&myrobot->tim7_call);
+    }
+
+    if (myrobot->dma2_call)//dma2上有jetson的通信
+    {
+        Jetson2Servo(jetson_init(), &(myrobot->servo_traget));
+        Servo2PLus(&(myrobot->servo_traget), &(myrobot->servos_target_plus));
+        servos_control(&(myrobot->servos_target_plus));
+
+        reset_calls(&myrobot->dma2_call);
     }
     //其他控制参看stm32f4xx_it.c中的中断处理
+}
+
+void set_calls(int * call) {
+    if (*call == 0) {
+        *call = 1;
+    }
+}
+
+void reset_calls(int * call) {
+    if (*call == 1) {
+        *call = 0;
+    }
 }

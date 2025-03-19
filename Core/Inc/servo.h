@@ -9,7 +9,7 @@ extern "C" {
 
 void servo_init();
 void servo_control(int name, int pwm_angle);
-void servos_control(const Servos Plus);
+void servos_control(const Servos * Plus);
 
 #ifdef __cplusplus
 }

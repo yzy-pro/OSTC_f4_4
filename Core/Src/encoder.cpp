@@ -62,26 +62,24 @@ void Encoder_SetCounter (const int name, const int value)
     }
 }
 
-WheelCondition Encoder2Wheel(void)
+void Encoder2Wheel(WheelCondition * Wheel)
 {
     const double v_A = Encoder_GetCounter('A') * conversion_factor;
     const double v_B = Encoder_GetCounter('B') * conversion_factor;
     const double v_C = Encoder_GetCounter('C') * conversion_factor;
     const double v_D = Encoder_GetCounter('D') * conversion_factor;
 
-    const WheelCondition Wheel={
-        .A_velocity = v_A,
-        .B_velocity = v_B,
-        .C_velocity = v_C,
-        .D_velocity = v_D
-    };
+
+    Wheel->A_velocity = v_A;
+    Wheel->B_velocity = v_B;
+    Wheel->C_velocity = v_C;
+    Wheel->D_velocity = v_D;
 
     Encoder_SetCounter ('A', 0);
     Encoder_SetCounter ('B', 0);
     Encoder_SetCounter ('C', 0);
     Encoder_SetCounter ('D', 0);
 
-    return Wheel;
 }
 
 // bool encoder_timer()

@@ -11,7 +11,7 @@ void encoder_init(void);
 int Encoder_GetCounter (int name);
 void Encoder_SetCounter (int name, int value);
 
-WheelCondition Encoder2Wheel(void);
+void Encoder2Wheel(WheelCondition * Wheel);
 
 // bool encoder_timer();
 

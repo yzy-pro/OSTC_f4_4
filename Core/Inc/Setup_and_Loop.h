@@ -36,11 +36,14 @@ extern "C"{
 #define SERVO_TIM htim8
 #define SERVO_PITCH_CHANNEL TIM_CHANNEL_3
 #define SERVO_YAW_CHANNEL TIM_CHANNEL_4
-
-void setup();
-void loop();
 #include "condition.h"
-RobotCondition getsettings();
+#include "robot.h"
+void setup(Robot * myrobot);
+void loop(Robot * myrobot);
+
+   void getsettings(RobotCondition * Robot);
+   void set_calls(int * call);
+   void reset_calls(int * call);
 
 #ifdef __cplusplus
 }

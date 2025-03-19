@@ -7,9 +7,8 @@ extern "C" {
 #include <stdint.h>
 #include "condition.h"
 
-
-uint8_t * jetson_init(void);
-Servos Jetson2Servo(const uint8_t * jetson_data);
+    uint8_t * jetson_init(void);
+    void Jetson2Servo(const uint8_t* jetson_data, Servos * servo);
 #ifdef __cplusplus
 }
 #endif

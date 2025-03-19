@@ -20,6 +20,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f4xx_it.h"
+#include "robot.h"
+#include "Setup_and_Loop.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "jetson.h"
@@ -43,8 +45,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-volatile uint8_t tim7_call = 0;
-volatile uint8_t dma2_call = 0;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -208,10 +209,7 @@ void SysTick_Handler(void)
 void TIM7_IRQHandler(void)
 {
   /* USER CODE BEGIN TIM7_IRQn 0 */
-  if (!tim7_call)
-  {
-    tim7_call = 1;
-  }
+  set_calls(&robot_init()->tim7_call);
   /* USER CODE END TIM7_IRQn 0 */
   HAL_TIM_IRQHandler(&htim7);
   /* USER CODE BEGIN TIM7_IRQn 1 */
@@ -225,10 +223,7 @@ void TIM7_IRQHandler(void)
 void DMA2_Stream2_IRQHandler(void)
 {
   /* USER CODE BEGIN DMA2_Stream2_IRQn 0 */
-  if (!dma2_call)
-  {
-    dma2_call = 1;
-  }
+  set_calls(&robot_init()->dma2_call);
   /* USER CODE END DMA2_Stream2_IRQn 0 */
   HAL_DMA_IRQHandler(&hdma_usart1_rx);
   /* USER CODE BEGIN DMA2_Stream2_IRQn 1 */

@@ -4,6 +4,7 @@
 #ifdef  __cplusplus
 extern "C"{
 #endif
+
 #define M_PI 3.14159265
 #define sqrt2 1.41421356
 
@@ -21,6 +22,8 @@ extern "C"{
 
 static inline double deg2rad(double x);
 static inline double rad2deg(double x);
+static inline double mysin(double x);
+static inline double mycos(double x);
 
 typedef struct
 {
@@ -65,14 +68,15 @@ typedef struct
     double theta;
 }Location;
 
-Polar_RobotCondition Cartesian2Polar(const RobotCondition Cartesian);
-RobotCondition Polar2Cartesian(const Polar_RobotCondition Polar);
+    void Cartesian2Polar(const RobotCondition * robot_condition,
+        Polar_RobotCondition * polar_robot_condition);
+    void Polar2Cartesian(const Polar_RobotCondition * polar_robot_condition,
+        RobotCondition * robot_condition);
 
-WheelCondition Robot2Wheel(const RobotCondition Robot);
-RobotCondition Wheel2Robot(const WheelCondition Wheel);
-
-Servos Servo2PLus(const Servos Servo);
-Location GetLocation(const RobotCondition Robot);
+    void Robot2Wheel(const RobotCondition * Robot, WheelCondition * Wheel);
+    void Wheel2Robot(const WheelCondition * Wheel, RobotCondition * Robot);
+    void Servo2PLus(const Servos * Servo, Servos * Plus);
+    void GetLocation(const RobotCondition * Robot, Location * Location);
 
 #ifdef  __cplusplus
 }
