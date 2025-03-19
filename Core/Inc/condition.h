@@ -22,8 +22,8 @@ extern "C"{
 
 static inline double deg2rad(double x);
 static inline double rad2deg(double x);
-static inline double mysin(double x);
-static inline double mycos(double x);
+// static inline double mysin(double x);
+// static inline double mycos(double x);
 
 typedef struct
 {
@@ -68,10 +68,10 @@ typedef struct
     double theta;
 }Location;
 
-    void Cartesian2Polar(const RobotCondition * robot_condition,
-        Polar_RobotCondition * polar_robot_condition);
-    void Polar2Cartesian(const Polar_RobotCondition * polar_robot_condition,
-        RobotCondition * robot_condition);
+    void Cartesian2Polar(const RobotCondition * Cartesian,
+        Polar_RobotCondition * Polar);
+    void Polar2Cartesian(const Polar_RobotCondition * Polar,
+        RobotCondition * Cartesian);
 
     void Robot2Wheel(const RobotCondition * Robot, WheelCondition * Wheel);
     void Wheel2Robot(const WheelCondition * Wheel, RobotCondition * Robot);

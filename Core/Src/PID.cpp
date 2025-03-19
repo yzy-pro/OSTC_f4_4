@@ -1,7 +1,7 @@
 #include "PID.h"
 #include "condition.h"
 
-double velocity_PID(const double target, double current)
+int velocity_PID(const double target, double current)
 {
     static PID_k velocity_PID = {
         .kp = 450,

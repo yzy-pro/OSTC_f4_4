@@ -6,7 +6,7 @@ extern "C" {
 #endif
 #include "condition.h"
 
-double velocity_PID(double target, double current);
+int velocity_PID(double target, double current);
 void velocity_control(const WheelCondition * target,
 const WheelCondition * current, WheelCondition * target_pwm);
 
