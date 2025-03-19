@@ -7,3 +7,6 @@
 CMakeLists.txt
 CMakeLists_template.txt
 /.idea
+.cproject
+.mxproject
+.project
