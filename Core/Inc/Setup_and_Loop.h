@@ -31,7 +31,7 @@ extern "C"{
 
 #define JETSON_HUART huart1
 
-#define JETSON_DMA_IRQn DMA2_Stream0_IRQn
+#define JETSON_DMA_IRQn DMA2_Stream2_IRQn
 
 #define SERVO_TIM htim8
 #define SERVO_PITCH_CHANNEL TIM_CHANNEL_3
@@ -45,6 +45,8 @@ extern "C"{
    void getsettings(RobotCondition * Robot);
    void set_calls(int * call);
    void reset_calls(int * call);
+
+
 
 #ifdef __cplusplus
 }

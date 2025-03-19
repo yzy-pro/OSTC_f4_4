@@ -18,15 +18,18 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "dma.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <string.h>
+
 #include "Setup_and_Loop.h"
 #include "robot.h"
+#include "servo.h"
+#include "jetson.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,7 +93,6 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_DMA_Init();
   MX_TIM1_Init();
   MX_TIM2_Init();
   MX_TIM3_Init();
@@ -109,10 +111,20 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
-  setup(robot_init());
+  // setup(robot_init());
+
+  HAL_UART_Receive_IT(&huart1, jetson_init(), 2);
+  HAL_UART_Transmit_IT(&huart1, jetson_init(),2);
   while (1)
   {
-    loop(robot_init());
+    HAL_UART_Receive_IT(&huart1, jetson_init(), 2);
+    // HAL_UART_Transmit(&huart1, (uint8_t*)message, strlen(message), 100);
+    // HAL_Delay(1000);
+    // HAL_UART_Receive(&huart1, receiveData, 2, HAL_MAX_DELAY);
+
+    // HAL_UART_Transmit(&huart1, receiveData,2,100);
+
+    // loop(robot_init());
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

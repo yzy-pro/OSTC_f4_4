@@ -6,10 +6,12 @@ extern "C" {
 #endif
 
 #include "condition.h"
+#include "robot.h"
 
-void servo_init();
+void servos_init();
 void servo_control(int name, int pwm_angle);
 void servos_control(const Servos * Plus);
+    void servos_test(Robot * myrobot);
 
 #ifdef __cplusplus
 }
