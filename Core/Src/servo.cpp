@@ -7,6 +7,9 @@ void servos_init()
 {
     HAL_TIM_PWM_Start(&SERVO_TIM, SERVO_PITCH_CHANNEL);
     HAL_TIM_PWM_Start(&SERVO_TIM, SERVO_YAW_CHANNEL);
+
+    Servo2PLus(&robot_init()->servo_traget, &robot_init()->servos_target_plus);
+    servos_control(&robot_init()->servos_target_plus);
 }
 
 void servo_control(const int name, const int pwm_angle)

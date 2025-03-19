@@ -13,6 +13,7 @@ void motors_init()
     HAL_TIM_PWM_Start(&D_MOTOR_TIM_FI, D_MOTOR_CHANNEL_FI);
     HAL_TIM_PWM_Start(&D_MOTOR_TIM_BI, D_MOTOR_CHANNEL_BI);
 
+    motors_control(&robot_init()->wheel_traget_pwm);
 }
 
 void motor_control(const int name, int pwm_velocity)

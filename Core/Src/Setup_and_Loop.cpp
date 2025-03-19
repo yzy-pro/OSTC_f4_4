@@ -16,46 +16,43 @@ void getsettings(RobotCondition * Robot)
     Robot->Omega_velocity = 0;
 }
 
-void setup(Robot * myrobot) {
+void setup() {
     motors_init();
-    motors_control(&myrobot->wheel_traget_pwm);
-
+    
     encoder_init();
 
     jetson_init();
 
     servos_init();
-    Servo2PLus(&myrobot->servo_traget, &myrobot->servos_target_plus);
-    servos_control(&myrobot->servos_target_plus);
-
+    
     HAL_UART_Receive_IT(&huart1, jetson_init(), 2);
 
-    // servos_test(myrobot);
+    // servos_test(robot_init());
 }
 
-void loop(Robot * myrobot)
+void loop()
 {
-    if (myrobot->tim7_call)//tim7是一个10ms触发的计时器
+    if (robot_init()->tim7_call)//tim7是一个10ms触发的计时器
     {
-        getsettings(&(myrobot->robot_traget));
-        Robot2Wheel(&(myrobot->robot_traget), &(myrobot->wheel_traget));
-        Encoder2Wheel(&(myrobot->wheel_current));
-        velocity_control(&(myrobot->wheel_traget),&(myrobot->wheel_current),&(myrobot->wheel_traget_pwm));
-        motors_control(&(myrobot->wheel_traget_pwm));
+        getsettings(&(robot_init()->robot_traget));
+        Robot2Wheel(&(robot_init()->robot_traget), &(robot_init()->wheel_traget));
+        Encoder2Wheel(&(robot_init()->wheel_current));
+        velocity_control(&(robot_init()->wheel_traget),&(robot_init()->wheel_current),&(robot_init()->wheel_traget_pwm));
+        motors_control(&(robot_init()->wheel_traget_pwm));
 
-        Wheel2Robot(&(myrobot->wheel_current), &(myrobot->robot_current));
-        GetLocation(&(myrobot->robot_current), &(myrobot->location));
+        Wheel2Robot(&(robot_init()->wheel_current), &(robot_init()->robot_current));
+        GetLocation(&(robot_init()->robot_current), &(robot_init()->location));
 
-        reset_calls(&myrobot->tim7_call);
+        reset_calls(&robot_init()->tim7_call);
     }
 
-    // if (myrobot->dma2_call)//dma2上有jetson的通信
+    // if (robot_init()->dma2_call)//dma2上有jetson的通信
     // {
-    //     Jetson2Servo(jetson_init(), &(myrobot->servo_traget));
-    //     Servo2PLus(&(myrobot->servo_traget), &(myrobot->servos_target_plus));
-    //     servos_control(&(myrobot->servos_target_plus));
+    //     Jetson2Servo(jetson_init(), &(robot_init()->servo_traget));
+    //     Servo2PLus(&(robot_init()->servo_traget), &(robot_init()->servos_target_plus));
+    //     servos_control(&(robot_init()->servos_target_plus));
     //
-    //     reset_calls(&myrobot->dma2_call);
+    //     reset_calls(&robot_init()->dma2_call);
     // }
     //其他控制参看stm32f4xx_it.c中的中断处理
 }

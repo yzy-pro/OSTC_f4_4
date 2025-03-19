@@ -39,8 +39,8 @@ extern "C"{
 #include "condition.h"
 #include "robot.h"
 
-   void setup(Robot * myrobot);
-   void loop(Robot * myrobot);
+   void setup();
+   void loop();
 
    void getsettings(RobotCondition * Robot);
    void set_calls(int * call);
