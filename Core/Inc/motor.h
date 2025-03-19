@@ -5,7 +5,6 @@
 extern "C" {
 #endif
 
-#include "main.h"
 #include "condition.h"
 
 #define abs_MAX_pwm_velocity 100 // ARR为 100 - 1

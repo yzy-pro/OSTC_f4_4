@@ -38,8 +38,9 @@ extern "C"{
 #define SERVO_YAW_CHANNEL TIM_CHANNEL_4
 #include "condition.h"
 #include "robot.h"
-void setup(Robot * myrobot);
-void loop(Robot * myrobot);
+
+   void setup(Robot * myrobot);
+   void loop(Robot * myrobot);
 
    void getsettings(RobotCondition * Robot);
    void set_calls(int * call);
