@@ -43,8 +43,24 @@ void Wheel2Robot(const WheelCondition* Wheel, RobotCondition* Robot)
     Robot->Omega_velocity = (Wheel->A_velocity + Wheel->B_velocity + Wheel->C_velocity + Wheel->D_velocity) / (4 * R_of_robot);
 }
 
-void Servo2PLus(const Servos * Servo, Servos * Plus)
+void Servo2PLus(Servos * Servo, Servos * Plus)
 {
+    if (Servo->pitch < 0 ||Servo->pitch > 180) {
+        if (Servo->pitch < 0) {
+            Servo->pitch = 0;
+        } else {
+            Servo->pitch = 180;
+        }
+    }
+
+    if (Servo->yaw < 0 ||Servo->yaw > 270) {
+        if (Servo->yaw < 0) {
+            Servo->yaw = 0;
+        } else {
+            Servo->yaw = 270;
+        }
+    }
+
     Plus->pitch = 500 + (Servo->pitch * 2000) / 180;
     Plus->yaw = 500 + Servo->yaw * 8;
 }

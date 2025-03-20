@@ -75,7 +75,7 @@ typedef struct
 
     void Robot2Wheel(const RobotCondition * Robot, WheelCondition * Wheel);
     void Wheel2Robot(const WheelCondition * Wheel, RobotCondition * Robot);
-    void Servo2PLus(const Servos * Servo, Servos * Plus);
+    void Servo2PLus(Servos * Servo, Servos * Plus);
     void GetLocation(const RobotCondition * Robot, Location * Location);
 
 #ifdef  __cplusplus

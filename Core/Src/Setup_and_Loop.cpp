@@ -25,7 +25,7 @@ void setup() {
 
     servos_init();
     
-    HAL_UART_Receive_IT(&huart1, jetson_init(), 2);
+    HAL_UART_Receive_DMA(&huart1, jetson_init(), 9);
 
     // servos_test(robot_init());
 }
@@ -45,15 +45,14 @@ void loop()
 
         reset_calls(&robot_init()->tim7_call);
     }
+     if (robot_init()->dma2_call)//dma2上有jetson的通信
+     {
+         Jetson2Servo(jetson_init(), &(robot_init()->servo_traget));
+         Servo2PLus(&(robot_init()->servo_traget), &(robot_init()->servos_target_plus));
+         servos_control(&(robot_init()->servos_target_plus));
 
-    // if (robot_init()->dma2_call)//dma2上有jetson的通信
-    // {
-    //     Jetson2Servo(jetson_init(), &(robot_init()->servo_traget));
-    //     Servo2PLus(&(robot_init()->servo_traget), &(robot_init()->servos_target_plus));
-    //     servos_control(&(robot_init()->servos_target_plus));
-    //
-    //     reset_calls(&robot_init()->dma2_call);
-    // }
+         reset_calls(&robot_init()->dma2_call);
+     }
     //其他控制参看stm32f4xx_it.c中的中断处理
 }
 
@@ -85,12 +84,15 @@ void reset_calls(int * call) {
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-    HAL_UART_Transmit_IT(&huart1, jetson_init(),2);
-    HAL_UART_Receive_IT(&huart1, jetson_init(), 2);
-    if (jetson_init()[0] == '1') {
-        // servos_test(robot_init());
-        HAL_Delay(1000);
-        jetson_init()[0] = 0;
+    if (huart->Instance == USART1) {
+        HAL_UART_Transmit_DMA(huart, jetson_init(),9);
+        if (jetson_init()[0] == '<' &&
+            jetson_init()[4] == ',' &&
+            jetson_init()[8] == '>') {
+            // servos_test(robot_init());
+            set_calls(&(robot_init()->dma2_call));
+        }
+        HAL_UART_Receive_DMA(huart, jetson_init(), 9);
     }
 
 }
